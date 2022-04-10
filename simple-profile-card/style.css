@@ -26,6 +26,7 @@ body{
 }
 
 a{
+  display: inline-block;
   text-decoration: none;
   color: inherit;
 }
@@ -88,7 +89,7 @@ i{
 .about{
   margin: 0.5rem 0;
 }
-button{
+.info-container a{
   width: 120px;
   padding: 0.8rem 1.5rem;
   border-radius: 4px;
@@ -107,8 +108,8 @@ button{
   border: 1px solid #1c62a7;
   color: #1c62a7;
 }
-button:hover,
-button:focus{
+a:hover,
+a:focus{
   box-shadow: none;
 }
 
