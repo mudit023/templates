@@ -1,0 +1,140 @@
+/* Base styles */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html{
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(190, 190, 190);
+  background-color: #231f3a;
+  letter-spacing: 1px;
+  transition: background-color .25s, color .25s;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+ul{
+  list-style: none;
+}
+
+input,
+button{
+  font: inherit;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+i{
+  font-size: 1.6rem;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 42rem;
+  box-shadow: 8px 5px 30px #171426;
+  background-color: #171426;
+}
+
+.upper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.img-container{
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+
+.img-container img{  
+
+}
+.info-container{
+  margin: 1.5rem 0;
+}
+.about{
+  margin: 0.5rem 0;
+}
+button{
+  width: 120px;
+  padding: 0.8rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 1rem;
+  box-shadow: 1px 1px 7px #1c61a75b;
+}
+
+.btn1{
+  background-color: #1c62a7;
+  border: none;
+  margin-right: 2px;
+}
+.btn2{
+  margin-left: 2px;
+  border: 1px solid #1c62a7;
+  color: #1c62a7;
+}
+button:hover,
+button:focus{
+  box-shadow: none;
+}
+
+.lower{
+  width: 100%;
+  background-color: #231f3a;
+  text-align: left;
+  padding: 2rem;
+}
+
+.lower .skills-heading{
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.lower .skills ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+  column-gap: 0.8rem;
+}
+
+.lower .skills ul li{
+  font-size: 1.4rem;
+  background-color: #2b2646;
+  border: 1px solid;
+  padding: 0.3rem 0.8rem;
+
+}
