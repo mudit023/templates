@@ -1,7 +1,7 @@
 # Templates
 ### Collections of variety of resuable components of HTML, CSS and JavaScript.
 
-What you can make:
+What all can you make:
 - Profile card template
 - Reviews card template
 - Contact section template
@@ -9,9 +9,9 @@ What you can make:
 - Skills section template
 - Hero section template
 
-**The first thing you can contribute to is the this readme.**
+**Note: The first thing you can contribute to is the this readme.**
 
 ### You can contribute following things to readme:
-[x] Contribution guidelines
-[x] Template guidelines
-[x] Guide for using the templates 
+- Contribution guidelines
+- Template guidelines
+- Guide for using the templates 
