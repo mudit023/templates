@@ -9,7 +9,7 @@ What all can you make:
 - Skills section template
 - Hero section template
 
-**Note: The first thing you can contribute to is the this readme.**
+**Note: The first thing you can contribute to is this readme.**
 
 ### You can contribute following things to readme:
 - Contribution guidelines
