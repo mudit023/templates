@@ -97,11 +97,13 @@ i{
   margin-top: 1rem;
   box-shadow: 1px 1px 7px #1c61a75b;
 }
-
 .btn1{
   background-color: #1c62a7;
   border: none;
   margin-right: 2px;
+}
+.btn1:hover{
+  color: #fff;
 }
 .btn2{
   margin-left: 2px;
