@@ -2,7 +2,9 @@
        ![](./Logo.png)
        # Theme Toggle
 </p>
-This is a Skills Section.
+This is a Contacts Section.
+
+![](./image/ReadMeBanner.png)
 
 ## Table of contents
 
@@ -11,11 +13,9 @@ This is a Skills Section.
   - [Built with](#built-with)
 - [Author](#author)
 
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
 
 Users should be able to:
 
@@ -23,19 +23,17 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.png)
-![](./Screenshot-Mobile.png)
-
+![Screenshot-Web](./Screenshot-Web.png)
+![Screenshot-Mobile](./Screenshot-Mobile.png)
 
 ## My process
 
 ### Built with
 
+- Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-
-
-
+- Flexbox
 
 ## Author
 
