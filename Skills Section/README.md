@@ -2,7 +2,7 @@
        ![](./Logo.png)
        # Theme Toggle
 </p>
-This is a Contacts Section.
+This is a Skills Section.
 
 ## Table of contents
 
@@ -31,10 +31,8 @@ Users should be able to:
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-- Flexbox
 
 
 
