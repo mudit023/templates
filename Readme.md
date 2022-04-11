@@ -5,7 +5,7 @@ What all can you make:
 - Profile card template
 - Reviews card template
 - Contact section template
-- Theme toggel
+- Theme toggle
 - Skills section template
 - Hero section template
 - Navigation Bar
