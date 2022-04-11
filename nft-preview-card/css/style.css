@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap");
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	font-family: "Outfit", sans-serif;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.card {
+	height: 700px;
+	width: 400px;
+	background-color: hsl(216, 50%, 16%);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+
+.card-content {
+	margin-left: 25px;
+	margin-top: 21px;
+}
+
+.card-img {
+	width: 350px;
+	height: 391.12px;
+	position: relative;
+}
+
+.main-img {
+	position: absolute;
+}
+
+.main-img img {
+	border-radius: 25px;
+	height: 100%;
+	width: 100%;
+}
+
+.hover-card {
+	width: 350px;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 350px;
+	height: 350px;
+	background: rgba(0, 255, 247, 0.4);
+	border-radius: 25px;
+}
+
+.main-img:hover {
+	z-index: -1;
+}
+
+.hover-card:hover {
+	opacity: 0.5;
+	transition-duration: 0.5s;
+	cursor: pointer;
+}
+
+.card-text {
+	margin-top: 29.88px;
+}
+
+.card-text a h1 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
+	color: #ffffff;
+}
+
+.card-text a:hover h1 {
+	color: #00fff7;
+}
+
+.card-text p {
+	margin-top: 12px;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 23px;
+	color: #6d85a1;
+}
+
+.card-row {
+	margin-top: 30px;
+	display: flex;
+	width: 349px;
+	height: 27px;
+	justify-content: space-between;
+}
+
+.eth {
+	display: flex;
+	align-items: center;
+}
+
+.eth span {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #00fff7;
+}
+
+.eth img {
+	width: 11px;
+	height: 18px;
+	margin-right: 7px;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+}
+
+.time span {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 20px;
+	color: #8bacda;
+}
+
+.time img {
+	width: 13.33px;
+	height: 13.33px;
+	margin-right: 5.67px;
+}
+
+.line {
+	width: 350px;
+	margin-top: 30px;
+	border: 1px solid #2f415b;
+}
+
+.endgame {
+	display: flex;
+	align-items: center;
+	margin-top: 16px;
+}
+
+.endgame-img {
+	width: 30px;
+	height: 30px;
+	margin-right: 14px;
+}
+
+.endgame-text p {
+	font-size: 16px;
+	line-height: 20px;
+	color: #8bacda;
+}
+
+.endgame-text a {
+	color: #ffffff;
+}
+
+.endgame-text a:hover {
+	color: #00fff7;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
