@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+	.container,
+	.box,
+	.table {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+
+	.box {
+		width: 300px;
+		height: 550px;
+		flex-direction: column-reverse;
+	}
+
+	.text-sec {
+		margin-left: 0px;
+		padding: 15px;
+	}
+
+	.sub-heading p {
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+	.main-img img {
+		width: 300px;
+		height: 200px;
+		border-radius: 8px 8px 0px 0px;
+	}
+
+	.hover-card {
+		width: 300px;
+		height: 200px;
+		border-radius: 8px 8px 0px 0px;
+	}
+
+	.heading h1 {
+		font-size: 22px;
+		line-height: 27px;
+	}
+
+	.heading p {
+		margin-top: 15px;
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+	.table {
+		margin-right: 0px;
+		margin-bottom: 15px;
+	}
+
+	.element{
+		margin-top: 10px;
+	}
+
+	.stats h1 {
+		font-size: 13px;
+		line-height: 16px;
+	}
+
+.stat-heading {
+	margin-top: 1px;
+
+}
+
+	.stat-heading p {
+		font-size: 9px;
+		line-height: 11px;
+	}
+}

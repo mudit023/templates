@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+/* Set core root defaults */
+html:focus-within {
+	scroll-behavior: smooth;
+}
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+/* Make images easier to work with */
+img,
+picture {
+	max-width: 100%;
+	display: block;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+	html:focus-within {
+		scroll-behavior: auto;
+	}
+	*,
+	*::before,
+	*::after {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
+
+body {
+	background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.box {
+	width: 1200px;
+	height: 450px;
+	background: hsl(244, 38%, 16%);
+	border-radius: 8px;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.text-sec {
+	margin-left: 80px;
+}
+
+.main-img {
+	position: absolute;
+}
+
+.main-img img {
+	width: 540px;
+	height: 450px;
+	border-radius: 0px 8px 8px 0px;
+}
+
+.hover-card {
+	width: 540px;
+	height: 450px;
+	background: rgba(170, 92, 219, 0.4);
+	border-radius: 0px 8px 8px 0px;
+	z-index: 2;
+	opacity: 0.4;
+}
+
+.heading h1 {
+	font-family: Inter;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 58px;
+	color: hsl(0, 0%, 100%);
+}
+
+.heading h1 span {
+	color: hsl(277, 64%, 61%);
+}
+
+.heading p {
+	margin-top: 58px;
+	font-family: Lexend Deca;
+	font-size: 20px;
+	line-height: 25px;
+	color: rgba(255, 255, 255, 0.75);
+	font-weight: 200;
+}
+
+.table {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	margin-top: 33px;
+	margin-right: 94px;
+}
+
+.element {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.stats h1 {
+	font-family: Inter;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 29px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #ffffff;
+}
+
+.stat-heading {
+	margin-top: 10px;
+}
+
+.stat-heading p {
+	font-family: Lexend Deca;
+	font-size: 14px;
+	line-height: 17px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.6);
+	text-transform: uppercase;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
