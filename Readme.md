@@ -5,9 +5,10 @@ What all can you make:
 - Profile card template
 - Reviews card template
 - Contact section template
-- Theme toggeler
+- Theme toggel
 - Skills section template
 - Hero section template
+- Navigation Bar
 
 **Note: The first thing you can contribute to is this readme.**
 
@@ -15,3 +16,5 @@ What all can you make:
 - Contribution guidelines
 - Template guidelines
 - Guide for using the templates 
+
+### It's mandatory to have a readme in your template folder, look at this [example](https://github.com/mudit023/templates/blob/main/nft-preview-card/README.md)
