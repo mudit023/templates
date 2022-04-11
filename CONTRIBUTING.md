@@ -1,4 +1,4 @@
-## Contributing Guidelines
+## Contribution Guidelines
 
 Thank you for your interest in contributing. Here's everything you'll need to make your first contribution.
 
@@ -26,36 +26,47 @@ You can always seek help and are recommended to discuss the course of action and
 
 1. Fork this repository.
 
-2. Check out to a new branch for the patch.
+![Screenshot 2022-04-11 174143](https://user-images.githubusercontent.com/71916646/162736803-627f44eb-ef50-42aa-a303-2a450374ac0c.png)
+
+
+2. Clone the forked repository.
+
+```bash
+git clone <Repository URL>
+```
+![Screenshot 2022-04-11 173808](https://user-images.githubusercontent.com/71916646/162736495-4aa54712-89af-40e5-864a-2c5259ff921f.png)
+
+
+3. Check out to a new branch and then make your changes.
 
 ```bash
 git checkout -b <branch name>
 ```
 
-3. Write your code.
+4. Write your code.
 
 <!-- add any more guidelines for formatting and linting if required -->
 
-4. Before committing changes, you should verify if the issue is fixed
+5. Before committing changes, you should verify if the issue is fixed
 
-5. Commit your changes. Try to follow the [best practices](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53) while committing changes.
+6. Commit your changes. Try to follow the [best practices](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53) while committing changes.
 
 ```bash
-git commit -s
+git commit -m <commit message>
 # Then write the commit message and save changes
 ```
 
-6. Push the changes to your fork.
+7. Push the changes to your fork.
 
 ```bash
 git push -u origin <branch name>
 ```
 
-7. Create a pull request. Be sure to read and follow our pull request guidelines!
+8. Create a pull request. Be sure to read and follow our pull request guidelines!
 
-8. Wait for code review and address any issues raised.
+9. Wait for code review and address any issues raised.
 
-9. Voila! You made a contribution. Keep it up.
+10. Voila! You made a contribution. Keep it up.
 
 ### Keeping your fork up-to-date
 
