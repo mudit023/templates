@@ -1,0 +1,115 @@
+.main{
+    height: 100vh;
+}
+
+body{
+    background: rgb(0, 44, 65);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+    border-radius: 25px;
+    flex-direction: column;
+    color: aliceblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container svg{
+    width: 25px;
+    height: 25px;
+    fill: rgb(77, 77, 77);
+}
+
+.container, .cancel{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: white;
+    bottom: 0;
+    right: 0;
+    border-radius: 25px 0 25px 0;
+    color: rgb(100, 100, 100);
+    font-size: 1.6rem;
+    transition: all .4s;
+}
+
+.container svg{
+    transform: rotate(45deg);
+}
+
+.active{
+    transform: translate(0%, 0%);
+}
+
+.off{
+    transform: translate(-80%, -78%);
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill{
+    color: rgb(180, 180, 180);
+}
+
+.username{
+    margin-bottom: 5px;
+    font-size: 2rem;
+}
+
+.icons svg{
+    fill: azure;
+    margin-top: 10px;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    transition: all .4s;
+}
+
+.icons svg:hover{
+    fill: #276885;
+}
+
+.cancel svg{
+    fill:rgb(100, 100, 100);
+    width: 25px;
+    height: 25px;
+}
+
+.left_container{
+    position: absolute;
+    background: #0f2027;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    padding: 50px 0 0 40px;
+}
+
+.left_container p{
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.left_container .skills div{
+    display: inline-block;
+    color: rgb(155, 155, 155);
+    border: 1px solid rgb(155, 155, 155);
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin: 4px 4px 4px 0;
+}
+
