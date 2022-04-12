@@ -12,9 +12,9 @@ Some examples of contributions are:
 
 2. Bugs: Any bug fixes are counted in this section. If you see a new bug, feel free to create a new issue mentioning the problem faced.
 
-3. Feature Requests: If you would like to see some new features around the website, you can always create a new issue mentioning the requested feature.
+3. New Template: If you would like to see some new templates in the project, you can always create a new issue mentioning the requested template. Or you can directly contribute the template you want by creating a PR for it.
 
-**Important:** Every PR must correspond to an issue. If there isn't an issue related to the PR, open a new issue in the Issues section.
+**Important:** If you have made changes in multiple files from different templates or you want to contribute multiple templates, then create separate PR for each one. Don't commit all of the changes in one PR.
 
 ### Grabbing an issue
 
@@ -81,3 +81,7 @@ git remote add upstream https://github.com/mudit023/templates.git
 ```bash
 git pull upstream master
 ```
+
+#### Important: We want to make this repository a huge collection of resuable components as mentioned in [project readme](https://github.com/mudit023/templates/blob/main/Readme.md#collection-of-variety-of-resuable-components-of-html-css-and-javascript) so a contribution of a new template will help this project a lot.
+
+**Note:** If you are a contributer or sincerely want to contribute to this project, comment on any [issue](https://github.com/mudit023/templates/issues/8) and we'll add you to our Slack Group for better conversation.
