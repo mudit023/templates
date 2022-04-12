@@ -25,4 +25,4 @@ What all can you make:
 
 ### It's mandatory to have a readme in your template folder, look at this [example](https://github.com/mudit023/templates/blob/main/nft-preview-card/README.md)
 
-### Want to contribute to the project? Read the [contribtuion giudelines](https://github.com/mudit023/templates/blob/main/CONTRIBUTION.md)
+### Want to contribute to the project? Read the [contribtuion giudelines](https://github.com/mudit023/templates/blob/main/Contribution.md)
