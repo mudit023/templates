@@ -1,6 +1,6 @@
 <p align="center">
        ![](./Logo.png)
-       # Theme Toggle
+       # Contacts Section
 </p>
 This is a Contacts Section.
 

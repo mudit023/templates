@@ -1,8 +1,8 @@
 <p align="center">
-       ![](./Logo.png)
-       # Skills Section
+       ![](./images/Logo.png)
+       # 3D Flip Card
 </p>
-This is a Skills Section.
+This is a 3D Flip Card.
 
 ## Table of contents
 
@@ -23,16 +23,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.png)
-![](./Screenshot-Mobile.png)
+![](./Screenshot-Web.jpg)
+![](./Screenshot-Mobile.jpg)
 
 
 ## My process
 
 ### Built with
 
+- Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
+- Flexbox
 
 
 
