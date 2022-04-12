@@ -1,0 +1,128 @@
+* {
+    transition: all 0.5s;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.subheading {
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.skill {
+    width: 500px;
+    margin: 60px auto;
+    padding: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.skill h3 {
+    margin: 5px;
+}
+
+.skill li {
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.html span {
+    background-color: #DB4B24;
+}
+
+.bar {
+    background: #353b48;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.bar span {
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgba(236, 0, 140)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.html {
+    width: 100%;
+    animation: html 2s;
+}
+
+.css {
+    width: 70%;
+    animation: css 3s;
+}
+
+.js {
+    width: 90%;
+    animation: js 3s;
+}
+
+.react {
+    width: 60%;
+    animation: react 3s;
+}
+
+.next {
+    width: 75%;
+    animation: next 3s;
+}
+
+.node {
+    width: 35%;
+    animation: node 3s;
+}
+
+/* Animations */
+@keyframes html {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 100%;
+    }
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+@keyframes next {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    }
+}
+@keyframes node {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 35%;
+    }
+}
