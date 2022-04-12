@@ -4,14 +4,15 @@
 
 What all can you make:
 
-- Profile card template
-- Reviews card template
-- Contact section template
+- Profile card template(s)
+- Reviews card template(s)
+- Contact section template(s)
 - Theme toggle
 - Skills section template
 - Hero section template
 - Navigation Bar
 - Projects Section
+- Testimonials Section
 
 ### Here are few templates contributed by you folks
 
