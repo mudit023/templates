@@ -1,5 +1,5 @@
 # Templates
-### Collections of variety of resuable components of HTML, CSS and JavaScript.
+### Collection of variety of resuable components of HTML, CSS and JavaScript.
 
 What all can you make:
 - Profile card template
