@@ -3,7 +3,11 @@
 body {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 	font-family: "Poppins", sans-serif;
+	background: url("/pixeltrue-newsletter-1.svg") center no-repeat;
+	background-size: cover;
+	min-height: 100vh;
 }
 
 .envelope {
@@ -52,7 +56,7 @@ body {
 	line-height: 40px;
 	text-align: center;
 	font-size: 20px;
-	border: 1px solid #fff;
+	border: 0.5px solid #fff;
 }
 .newsletter .close:hover {
 	background: #00bcd4;
@@ -64,7 +68,7 @@ body {
 	right: 50px;
 	width: 100%;
 	height: 100vh;
-	background: #060c0c;
+	background: rgba(6, 12, 12, 0.7);
 	transition: 0.5s;
 	transform: scale(0);
 	transform-origin: bottom right;
