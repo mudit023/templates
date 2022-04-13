@@ -1,8 +1,8 @@
 <p align="center">
        <img src="./Logo.png" />
-       # Expanding Cards(Gallery)
+       # Quiz App
 </p>
-This is a Expanding Cards using Html CSS JS.
+This is a Quiz App using Html CSS JS.
 
 ## Table of contents
 
