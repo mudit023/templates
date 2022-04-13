@@ -1,8 +1,8 @@
 <p align="center">
        <img src="./Logo.png" />
-       # Expanding Cards(Gallery)
+       # Split Landing Page
 </p>
-This is a Expanding Cards using Html CSS JS.
+This is a Split landing Page using Html CSS JS.
 
 ## Table of contents
 
