@@ -7,8 +7,8 @@ Thank you for your interest in contributing. Here's everything you'll need to ma
 - [Grabbing an issue](#grabbing-an-issue)
 - [How to Contribute?](#how-to-contribute)
 - [Keeping your fork up-to-date](#keeping-your-fork-up-to-date)
-- [Things to keep in mind before making a pull request](things-to-keep-in-mind-before-making-a-pull-request)
-- [Join Our Slack Team](join-our-slack-team)
+- [Things to keep in mind before making a pull request](#things-to-keep-in-mind-before-making-a-pull-request)
+- [Join Our Slack Team](#join-our-slack-team)
 
 ### What can I help with?
 
