@@ -2,6 +2,14 @@
 
 Thank you for your interest in contributing. Here's everything you'll need to make your first contribution.
 
+## Overview:
+- [What can I help with?](#what-can-i-help-with)
+- [Grabbing an issue](#grabbing-an-issue)
+- [How to Contribute?](#how-to-contribute)
+- [Keeping your fork up-to-date](#keeping-your-fork-up-to-date)
+- [Things to keep in mind before making a pull request](#things-to-keep-in-mind-before-making-a-pull-request)
+- [Join our slack team](#join-our-slack-team)
+
 ### What can I help with?
 
 We welcome contributions of all sorts. Even the most minor changes are warmly welcomed. You may choose to work on an existing issue or propose your own.
@@ -13,8 +21,6 @@ Some examples of contributions are:
 2. Bugs: Any bug fixes are counted in this section. If you see a new bug, feel free to create a new issue mentioning the problem faced.
 
 3. New Template: If you would like to see some new templates in the project, you can always create a new issue mentioning the requested template. Or you can directly contribute the template you want by creating a PR for it.
-
-**Important:** If you have made changes in multiple files from different templates or you want to contribute multiple templates, then create separate PR for each one. Don't commit all of the changes in one PR.
 
 ### Grabbing an issue
 
@@ -82,6 +88,11 @@ git remote add upstream https://github.com/mudit023/templates.git
 git pull upstream master
 ```
 
-#### Important: We want to make this repository a huge collection of resuable components as mentioned in [project readme](https://github.com/mudit023/templates/blob/main/Readme.md#collection-of-variety-of-resuable-components-of-html-css-and-javascript) so a contribution of a new template will help this project a lot.
+### Things to keep in mind before making a pull request 
+- Always fetch upstream before creating a pull request.
+- If you have made changes in multiple files from different templates or you want to contribute multiple templates, then create separate pull requests for each one. Don't commit all of the changes in one PR.
+- If you want to change something in someone else's contribution then first create an issue about it in [issues section](https://github.com/mudit023/templates/issues) and when it get assigned to you then create a new pull request for that issue specifically.
 
-**Note:** If you are a contributer or sincerely want to contribute to this project, comment on any [issue](https://github.com/mudit023/templates/issues/8) and we'll add you to our Slack Group for better conversation.
+### Join our slack team
+- We want to make this repository a huge collection of resuable components as mentioned in [project readme](https://github.com/mudit023/templates/blob/main/README.md) so a contribution of a new template will help this project a lot. 
+- If you are a contributer or sincerely want to contribute to this project, comment on any [issue](https://github.com/mudit023/templates/issues/8) and we'll add you to our Slack Group for better conversation.

@@ -1,6 +1,8 @@
-<p align="center">
-       ![](./Logo.png)
-       # Theme Toggle
+<p align=center>
+<img src="./Logo.png" align="center" />
+</p>
+<p align=center>
+# Theme Toggle
 </p>
 This is a Theme Toggle That will be used in Websites.
 
