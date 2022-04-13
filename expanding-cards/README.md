@@ -1,6 +1,6 @@
 <p align="center">
        <img src="./Logo.png" />
-       # Animated Navigation
+       # Expanding Cards(Gallery)
 </p>
 This is a Animated Login Form using Html CSS.
 
