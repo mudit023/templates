@@ -94,5 +94,5 @@ git pull upstream master
 - If you want to change something in someone else's contribution then first create an issue about it in [issues section](https://github.com/mudit023/templates/issues) and when it get assigned to you then create a new pull request for that issue specifically.
 
 ### Join our slack team
-- We want to make this repository a huge collection of resuable components as mentioned in [project readme](https://github.com/mudit023/templates/blob/main/Readme.md#collection-of-variety-of-resuable-components-of-html-css-and-javascript) so a contribution of a new template will help this project a lot. 
+- We want to make this repository a huge collection of resuable components as mentioned in [project readme](https://github.com/mudit023/templates/blob/main/README.md) so a contribution of a new template will help this project a lot. 
 - If you are a contributer or sincerely want to contribute to this project, comment on any [issue](https://github.com/mudit023/templates/issues/8) and we'll add you to our Slack Group for better conversation.
