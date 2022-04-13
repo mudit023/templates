@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  transition: all 0.5s;
+  
 }
 
 html{
@@ -80,9 +80,9 @@ i{
   overflow: hidden;
 }
 
-/* .img-container img{  
+.img-container img{  
 
-} */
+}
 .info-container{
   margin: 1.5rem 0;
 }
@@ -140,9 +140,4 @@ a:focus{
   border: 1px solid;
   padding: 0.3rem 0.8rem;
 
-}
-
-.skill:hover {
-  color: #ff5a5f;
-  background-color: #2b2646;
 }
