@@ -2,7 +2,7 @@
        <img src="./Logo.png" />
        # Animated Navigation
 </p>
-This is a Animated Navigation Bar using Html CSS JS.
+This is a Animated Login Form using Html CSS.
 
 ## Table of contents
 

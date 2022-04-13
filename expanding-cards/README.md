@@ -2,7 +2,7 @@
        <img src="./Logo.png" />
        # Expanding Cards(Gallery)
 </p>
-This is a Expanding Cards using Html CSS JS.
+This is a Animated Login Form using Html CSS.
 
 ## Table of contents
 
