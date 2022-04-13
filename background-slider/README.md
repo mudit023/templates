@@ -2,7 +2,7 @@
        <img src="./Logo.png" />
        # Background Slider(Gallery)
 </p>
-This is a Background Slider using Html CSS JS.
+This is a Animated Login Form using Html CSS.
 
 ## Table of contents
 
