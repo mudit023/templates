@@ -12,9 +12,6 @@ What all can you make:
 - Hero section template
 - Navigation Bar
 - Projects Section
-- Quiz App
-- Gallery
-- Login Forms
 
 ### Here are few templates contributed by you folks
 
