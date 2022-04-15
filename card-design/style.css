@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: radial-gradient(#777, #222);
+}
+
+.card {
+	position: relative;
+	width: 340px;
+	height: 450px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.circle {
+	position: absolute;
+	top: -190px;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 500px;
+	height: 500px;
+	clip-path: circle();
+	background-color: #333;
+}
+
+.circle::before {
+	position: absolute;
+	top: -8px;
+	left: -16px;
+	width: 100%;
+	height: 100%;
+	content: "";
+	background: transparent;
+	box-shadow: 0 0 0 20px rgba(255, 0, 0, 0.5);
+	border-radius: 50%;
+	z-index: 1000;
+    pointer-events: none;
+}
+
+.circle .imgBox {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-50%);
+	width: 340px;
+	height: 310px;
+	background: #ff0;
+}
+
+.circle .imgBox img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s;
+    transform-origin: top;
+}
+
+.circle .imgBox:hover img {
+    transform: scale(1.5);
+}
+
+.content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 140px;
+	width: 100%;
+	padding: 20px 30px;
+}
+
+.fa-linkedin {
+	background-color: #0077b5;
+	color: #fff;
+	padding: 2px 4px;
+	border-radius: 2px;
+}
+
+.content h3 {
+	font-size: 1.4em;
+	color: #333;
+	margin-top: 7px;
+	margin-bottom: 2px;
+}
+
+.textIcon {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.textIcon h4 {
+	font-weight: 400;
+	color: #e91e63;
+}
+
+.textIcon .fa {
+	color: #e91e63;
+}
