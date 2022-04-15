@@ -29,6 +29,6 @@ What you can make:
 - Template guidelines
 - Guide for using the templates
 
-### It's mandatory to have a README in your template folder, look at this [example](https://github.com/mudit023/templates/blob/main/nft-preview-card/README.md).
+### If you want to contribute a new template you have to follow our [Template Guidelines](https://github.com/mudit023/templates/blob/main/TEMPLATE_GUIDELINES.md).
 
 ### Want to contribute to the project? Read the [Contribution Guidelines](https://github.com/mudit023/templates/blob/main/CONTRIBUTING.md) and adhere to our [Code of Conduct](https://github.com/mudit023/templates/blob/main/CODE_OF_CONDUCT.md).
