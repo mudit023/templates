@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* these styles can be removed when the component is being used  */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	/* Remove height and display flex and when you use it in your website  */
+	/* It's just used to center the card in the body */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: #232c33;
+}
+
+.navigation {
+	position: relative;
+	height: 500px;
+	width: 70px;
+	background: #2b343b;
+	box-shadow: 10px 0 0 #4187f6;
+	border-left: 10px solid #2b343b;
+	overflow-x: hidden;
+	transition: width 0.5s;
+}
+
+.navigation:hover {
+	width: 300px;
+}
+
+.navigation ul {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding-left: 5px;
+	padding-top: 40px;
+}
+
+.navigation ul li {
+	position: relative;
+	list-style: none;
+	width: 100%;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+}
+
+.navigation ul li.active a::before {
+	content: "";
+	position: absolute;
+	top: -30px;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 15px 15px 0 #4187f6;
+	background: #2b343b;
+}
+
+.navigation ul li.active a::after {
+	content: "";
+	position: absolute;
+	bottom: -30px;
+	right: 0;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	box-shadow: 15px -15px 0 #4187f6;
+	background: #2b343b;
+}
+
+.navigation ul li.active {
+	background: #4187f6;
+}
+
+.navigation ul li a {
+	position: relative;
+	width: 100%;
+	display: flex;
+	text-decoration: none;
+	color: #fff;
+}
+
+.navigation ul li a .icon {
+	position: relative;
+	display: block;
+	min-width: 60px;
+	height: 60px;
+	line-height: 70px;
+	text-align: center;
+}
+
+.navigation ul li a .icon ion-icon {
+	position: relative;
+	font-size: 1.5em;
+	z-index: 1;
+}
+
+.navigation ul li a .title {
+	position: relative;
+	display: block;
+	padding-left: 10px;
+	height: 60px;
+	line-height: 60px;
+	white-space: nowrap;
+}
