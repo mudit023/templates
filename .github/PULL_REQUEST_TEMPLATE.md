@@ -30,7 +30,7 @@
 
 
 
-## if there are UI changes or Animation, add GIFs
+## Mobile & Desktop Screenshots or GIFs(If Template have animations)
 
 
 
