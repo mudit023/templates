@@ -1,8 +1,6 @@
-<p align="center">
-       <img src="./images/Logo.png" /> <br />
-       # 3D Flip Card
-</p>
-This is a 3D Flip Card.
+Navbar for Mobile with curved outsides
+
+This is a sample navbar for mobile.
 
 ## Table of contents
 
@@ -11,11 +9,9 @@ This is a 3D Flip Card.
   - [Built with](#built-with)
 - [Author](#author)
 
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
 
 Users should be able to:
 
@@ -23,9 +19,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./Overview.gif" />
-
-
+![](./Screenshot.png)
+![](./Screenshot-active.png)
 
 ## My process
 
@@ -33,14 +28,11 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Mobile-first workflow
 - Flexbox
-
-
-
+- Mobile-first workflow
+- Vanila JS
 
 ## Author
 
-- Github - [@Programming-School](https://www.github.com/Programing-School)
-- Twitter - [@Programing_Pro](https://www.twitter.com/Programing_Pro)
-- YouTube - [@Programming-School](https://www.youtube.com/channel/UC1YTVmV31RZV2oie1kKpJkw)
+- Github - [@imRajAryan09](https://www.github.com/imRajAryan09)
+- Twitter - [@codeorfade](https://www.twitter.com/codeorfade)

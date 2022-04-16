@@ -1,0 +1,110 @@
+html[data-theme='dark'] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  --color-background: #242424;
+  --toggle-border: 2.5px solid #f5f1f1;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 100%;
+  --color-background: #e4e4e4;
+  --toggle-border: 2.5px solid #888888;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background: var(--color-background);
+}
+
+.toggle-container {
+  display: -ms-grid;
+  display: grid;
+  margin-right: 12px;
+  text-align: left;
+  margin-top: 15px;
+}
+
+.switch {
+  position: relative;
+  margin-right: 0px;
+  margin-top: 4px;
+  display: -ms-grid;
+  display: grid;
+  width: 45px;
+  height: 26px;
+  margin-bottom: 2px;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #050505;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: var(--toggle-border);
+  -webkit-box-shadow: 1px 1px 1px rgba(14, 13, 13, 0.219);
+  box-shadow: 1px 1px 1px rgba(14, 13, 13, 0.219);
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  bottom: 3px;
+  top: 3.4px;
+  background-color: #e0fc43;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.switch input {
+  display: none;
+}
+
+input:checked + .slider {
+  background-color: #2ae6ec;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(23px) rotateZ(45deg);
+  transform: translateX(23px) rotateZ(45deg);
+  background: #353535;
+}
+
+.slider.round {
+  border-radius: 60px;
+}
+
+.slider.round:before {
+  width: 40%;
+  height: 45%;
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+}
+
+html.transition,
+html.transition *,
+html.transition * :before,
+html.transition * :after {
+  -webkit-transition: all 600ms !important;
+  transition: all 600ms !important;
+  -webkit-transition-delay: 0 !important;
+          transition-delay: 0 !important;
+}
