@@ -16,11 +16,10 @@
 ## What type of PR is this? (check all applicable)
 
 - [ ] ♻️ Refactor
-- [ ] ✨ Feature
+- [ ] ✨ New Template
 - [ ] 🐛 Bug Fix
 - [ ] 👷 Optimization
 - [ ] 📝 Documentation Update
-- [ ] 🔖 Release
 - [ ] 🚩 Other
 
 ## Description
@@ -31,15 +30,9 @@
 
 
 
-## Mobile & Desktop Screenshots/Recordings (if there are UI changes)
+## Mobile & Desktop Screenshots or GIFs(If Template have animations)
 
 
-
-## Added tests?
-
-- [ ] 👍 yes
-- [ ] 🙅 no, because they aren't needed
-- [ ] 🙋 no, because I need help
 
 ## Added to documentation?
 
