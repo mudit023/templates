@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+/*coloring before the dark mode*/
+:root{
+    /*background color*/
+    --background:#fff;
+    /*toggle container box color*/
+    --toggle-container:#333;
+    /*toggle container circle color*/
+    --circle-color:#fff;
+    /* icons color*/
+    --icons-color:goldenrod;
+
+    /*size of the toggle container*/
+    /*just change the size of this variable it will calculate everything else for you */
+    --size:8.1rem
+}
+html{
+    font-size: 62.5%;
+}
+body.darkmode{
+    /*background-color after dark mode*/
+    --background:#333;
+
+    --toggle-container:#fff;
+    --circle-color:#333;
+    --icons-color:goldenrod;
+    
+}
+/* just to center the toggle container*/
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:var(--background);
+}
+/* sun and moon container*/
+.toggle-container{
+    display: flex;
+    justify-content:space-between;
+    flex-basis: calc(2*var(--size) + (25/100) * var(--size));
+    background-color: var(--toggle-container);
+    position: relative;
+    border-radius:calc((66/100)*var(--size));
+    padding:0.2rem;
+    height: var(--size);
+    overflow: hidden;
+    
+}
+/* sun and moon */
+.toggle-container i{
+    color:var(--icons-color);
+    font-size:calc(var(--size) - 1/3*var(--size));
+    display: flex;
+    align-items: center;
+}
+/*circle on sun and moon*/
+.circle{
+    width: calc(var(--size));
+    height: calc(var(--size));
+    background-color: var(--circle-color);
+    border-radius: 100%;
+    position: absolute;
+    top: 0.1rem;
+    left:0.2rem;
+    bottom: 0;
+    transition-property: transform;
+    transition-duration: 1s;
+}
+/*properties of circle when dark mode is there*/
+.circle.darkmode{
+    
+    transform: translateX(calc(var(--size) + (26/100) * var(--size)));
+    /* --circle-color:green; */
+}
