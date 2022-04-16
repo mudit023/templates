@@ -1,5 +1,5 @@
 <p align="center">
-       ![](./images/Logo.png)
+       <img src="./images/Logo.png" />
        # 3D Flip Card
 </p>
 This is a 3D Flip Card.
@@ -23,8 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./Screenshot-Web.jpg" />
-<img src="./Screenshot-Mobile.jpg" />
+<img src="./Overview.gif" />
 
 
 ## My process
