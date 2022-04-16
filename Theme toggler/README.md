@@ -18,8 +18,8 @@ Users should be able to:
 ---
 ### Screenshot
 
-![](./Screenshot.png)
-![](./Screenshot1.png)
+![](./Light-theme.png)
+![](./Dark-theme.png)
 
 ### Built with
 
