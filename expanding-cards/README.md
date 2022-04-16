@@ -1,17 +1,17 @@
 <p align="center">
-       <img src="./Logo.png" />
+       <img src="./Logo.png" alt="Logo" />
        # Expanding Cards(Gallery)
 </p>
-This is a Animated Login Form using Html CSS.
+This is a Expanding Cards That will be used in Websites.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [How to use?](#how-to-use)
+  - [More Information](#more-information)
   - [Built with](#built-with)
 - [Author](#author)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -21,8 +21,18 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.png)
-![](./Screenshot-Mobile.png)
+![](./Screenshot-Web.jpg)
+![](./Screenshot-Mobile.jpg)
+
+### How to use ?
+
+Go to [index.html](index.html) and open it with the browser
+
+If you have any problem tell us by creating an [issue](https://github.com/mudit023/templates/issues/new/choose)
+
+### More Information
+
+This template is for A Expanding Cards
 
 ## My process
 
@@ -34,6 +44,8 @@ Users should be able to:
 - Vanilla JavaScript
 
 ## Author
+
+Created By [Programming-School](https://www.github.com/Programing-School)
 
 - Github - [@Programming-School](https://www.github.com/Programing-School)
 - Twitter - [@Programing_Pro](https://www.twitter.com/Programing_Pro)
