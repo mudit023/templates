@@ -1,0 +1,89 @@
+:root{
+    --page-background-colour: #272727;
+    --hover-colour: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    --timeline-colour: #e7e7e7;
+    --timeline-dot-colour: rgb(143, 41, 251);
+    --text-card-colour: #e2e2e2;
+    --heading-colour: #1a1a1a;
+    --paragraph-colour: #3b3b3b;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: var(--page-background-colour);
+}
+
+.timeline-container {
+    position: relative;
+    width: 650px;
+    margin: 100px auto 0 auto;
+}
+
+.timeline-container::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: var(--timeline-colour);
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -3px;
+}
+
+.text-wrapper {
+    padding: 10px 20px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+.text-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: -10px;
+    background-color: var(--timeline-dot-colour);
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -10px;
+}
+
+.text {
+    padding: 10px 10px 5px 20px;
+    background-color: var(--text-card-colour);
+    border-radius: 10px;
+}
+
+.text h3 {
+    text-transform: uppercase;
+    font-size: 12px;
+    color: var(--heading-colour);
+    letter-spacing: 1px;
+}
+
+.text p {
+    color: var(--paragraph-colour);
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.text:hover{
+    background: var(--hover-colour);
+}
