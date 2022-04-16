@@ -28,4 +28,4 @@ Users should be able to:
 
 ## Author
 
-- Github - [@pranavgoel29](https://github.com/Susaksham)
+- Github - [@Susaksham](https://github.com/Susaksham)
