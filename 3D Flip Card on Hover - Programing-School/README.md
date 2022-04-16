@@ -1,5 +1,5 @@
 <p align="center">
-       <img src="./Logo.png" />
+       <img src="./images/Logo.png" /> <br />
        # 3D Flip Card
 </p>
 This is a 3D Flip Card.
@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./Screenshot-Web.png" />
-<img src="./Screenshot-Mobile.png" />
+<img src="./Overview.gif" />
+
 
 
 ## My process
