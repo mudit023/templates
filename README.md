@@ -33,15 +33,4 @@ This project is perfect for people starting out with opensource and knows basics
 <img src="https://github.com/mudit023/templates/blob/main/theme-toggle/Screenshot-Mobile.png" width=400px height=518px align="left">
 <img src="https://github.com/mudit023/templates/blob/main/background-slider/Screenshot-Mobile.png" width=400px>
 
-**Note: The first thing you can contribute to is this README.**
-
-### You can contribute following things to README:
-
-- Contribution guidelines
-- Template guidelines
-- Guide for using the templates
-
-### If you want to contribute a new template you have to follow our [Template Guidelines](https://github.com/mudit023/templates/blob/main/TEMPLATE_GUIDELINES.md).
-
-### Want to Contribute to the project? Read the [Contribution Guidlines](https://github.com/mudit023/templates/blob/main/CONTRIBUTING.md) and adhere to our [Code of Conduct](https://github.com/mudit023/templates/blob/main/CODE_OF_CONDUCT.md)
-
+### Want to contribute to the project? Read the [Contribution Guidelines](https://github.com/mudit023/templates/blob/main/CONTRIBUTING.md), [Template Guidelines](https://github.com/mudit023/templates/blob/main/TEMPLATE_GUIDELINES.md), and adhere to our [Code of Conduct](https://github.com/mudit023/templates/blob/main/CODE_OF_CONDUCT.md).
