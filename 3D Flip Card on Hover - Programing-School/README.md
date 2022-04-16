@@ -1,5 +1,5 @@
 <p align="center">
-       <img src="./images/Logo.png" />
+       <img src="./images/Logo.png" /> <br />
        # 3D Flip Card
 </p>
 This is a 3D Flip Card.
