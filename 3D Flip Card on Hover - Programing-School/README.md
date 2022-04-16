@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.jpg)
-![](./Screenshot-Mobile.jpg)
+<img src="./Screenshot-Web.jpg" />
+<img src="./Screenshot-Mobile.jpg" />
 
 
 ## My process
