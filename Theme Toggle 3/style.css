@@ -3,6 +3,7 @@ html[data-theme='dark'] {
           box-sizing: border-box;
   font-size: 100%;
   --color-background: #242424;
+  --toggle-border: 2.5px solid #f5f1f1;
 }
 
 html {
@@ -10,6 +11,7 @@ html {
           box-sizing: border-box;
   font-size: 100%;
   --color-background: #e4e4e4;
+  --toggle-border: 2.5px solid #888888;
 }
 
 body {
@@ -55,7 +57,7 @@ body {
   background: #050505;
   -webkit-transition: .5s;
   transition: .5s;
-  border: 2.5px solid #f5f1f1;
+  border: var(--toggle-border);
   -webkit-box-shadow: 1px 1px 1px rgba(14, 13, 13, 0.219);
   box-shadow: 1px 1px 1px rgba(14, 13, 13, 0.219);
 }
