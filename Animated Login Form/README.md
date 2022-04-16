@@ -1,13 +1,15 @@
 <p align="center">
-       <img src="./Logo.png" />
+       <img src="./Logo.png" alt="Logo" />
        # Animated Login Form
 </p>
-This is a Animated Login Form using Html CSS.
+This is a Animated Login Form That will be used in Websites As A Page.
 
 ## Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
+  - [How to use?](#how-to-use)
+  - [More Information](#more-information)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -24,6 +26,16 @@ Users should be able to:
 ![](./Screenshot-Web.png)
 ![](./Screenshot-Mobile.png)
 
+### How to use ?
+
+Go to [index.html](index.html) and open it with the browser
+
+If you have any problem tell us by creating an [issue](https://github.com/mudit023/templates/issues/new/choose)
+
+### More Information
+
+This template is for A Animated Login Form
+
 ## My process
 
 ### Built with
@@ -33,6 +45,8 @@ Users should be able to:
 - Mobile-first workflow
 
 ## Author
+
+Created By [Programming-School](https://www.github.com/Programing-School)
 
 - Github - [@Programming-School](https://www.github.com/Programing-School)
 - Twitter - [@Programing_Pro](https://www.twitter.com/Programing_Pro)
