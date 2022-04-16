@@ -1,10 +1,8 @@
-<p align=center>
-<img src="./Logo.png" align="center" />
+<p align="center">
+       ![](./Logo.png)
+       # Skills Section
 </p>
-<p align=center>
-# Theme Toggle
-</p>
-This is a Theme Toggle That will be used in Websites.
+This is a Skills Section.
 
 ## Table of contents
 
@@ -25,19 +23,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.jpg)
-![](./Screenshot-Mobile.jpg)
+![](./Screenshot-Web.png)
+![](./Screenshot-Mobile.png)
 
 
 ## My process
 
 ### Built with
 
-- Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-- Vanilla JavaScript
-- JQuery
 
 
 

@@ -1,10 +1,8 @@
-<p align=center>
-<img src="./Logo.png" align="center" />
+<p align="center">
+       <img src="./Logo.png" />
+       # Animated Navigation
 </p>
-<p align=center>
-# Theme Toggle
-</p>
-This is a Theme Toggle That will be used in Websites.
+This is a Animated Login Form using Html CSS.
 
 ## Table of contents
 
@@ -13,11 +11,9 @@ This is a Theme Toggle That will be used in Websites.
   - [Built with](#built-with)
 - [Author](#author)
 
-
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
-
 
 Users should be able to:
 
@@ -25,9 +21,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Screenshot-Web.jpg)
-![](./Screenshot-Mobile.jpg)
-
+![](./Screenshot-Web.png)
+![](./Screenshot-Mobile.png)
 
 ## My process
 
@@ -37,10 +32,6 @@ Users should be able to:
 - CSS custom properties
 - Mobile-first workflow
 - Vanilla JavaScript
-- JQuery
-
-
-
 
 ## Author
 

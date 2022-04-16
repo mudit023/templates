@@ -1,10 +1,8 @@
-<p align=center>
-<img src="./Logo.png" align="center" />
+<p align="center">
+       ![](./Logo.png)
+       # Contacts Section
 </p>
-<p align=center>
-# Theme Toggle
-</p>
-This is a Theme Toggle That will be used in Websites.
+This is a Contacts Section.
 
 ## Table of contents
 
@@ -36,8 +34,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-first workflow
-- Vanilla JavaScript
-- JQuery
+- Flexbox
 
 
 

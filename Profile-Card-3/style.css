@@ -1,0 +1,175 @@
+/* Font Used */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/* CSS Variables */
+:root{
+  --background-color: #fff8e5;
+  --card-base-color: #ffefc2;
+  --card-primary-color: #f99c69;
+  --card-font-color: rgb(41, 41, 41);
+  --btn-color: #4c6e9c;
+}
+/* Base CSS */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+html{
+  /* font-size: 10px; */
+  font-size: 62.5%;
+}
+body{
+  /* Remove height and display flex and it's properties when you use it in your website  */
+  /* It's just used to center the card in the body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  /* Remove CSS above this line */
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  background-color: var(--background-color);
+  letter-spacing: 1px;
+}
+a{
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+img{
+  max-width: 100%;
+  display: block;
+}
+ul{
+  list-style: none;
+}
+input,
+button{
+  font: inherit;
+  color: inherit;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+i{
+  font-size: 1.6rem;
+}
+/* Base CSS Ends */
+
+/* Card CSS */
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 42rem;
+  padding: 2rem;
+  background-color: var(--card-base-color);
+}
+.card .profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.card .profile img{
+  position: absolute;
+  top: -20%;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  z-index: 99;
+}
+
+.card .profile .name{
+  margin-top: 6.5rem;
+}
+.card .designation{
+  font-weight: 500;
+  margin-bottom: 2rem;
+  color: var(--card-font-color);
+}
+
+.card .about{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .about p{
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: var(--card-font-color);
+}
+
+.card .about ul{
+  display: flex;
+  column-gap: 2rem;
+  margin-bottom: 1rem;
+}
+.card .about ul li a i{
+  font-size: 2.8rem;
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out,
+              opacity 150ms ease-in-out;
+  color: var(--card-primary-color);
+  opacity: 0.85;
+}
+.card .about ul li a:hover i{
+  transform: scale(1);
+  transition: opacity 150ms ease-in-out;
+  opacity: 1;
+}
+
+.card .about .btn{
+  background-color: var(--btn-color);
+  padding: 1rem 2.5rem;
+  margin-block: 1rem;
+  border-radius: 4px;
+  color: var(--card-font-color);
+  text-transform: uppercase;
+  font-weight: 500;
+  transform: scale(1.02);
+  transition: transform 250ms ease-in-out;
+}
+.card .about .btn:hover{
+  transform: scale(1);
+}
+/* For screen size greater than 720px */
+@media (min-width: 720px) {
+  .card{
+    display: grid;
+    grid-template-columns: 3fr 4fr;
+    width: 72rem;
+    column-gap: 2.5rem;
+    padding: 0;
+  }
+  .card .profile{
+    height: 100%;
+    padding: 2rem;
+    background: var(--card-primary-color);
+  }
+  .card .profile img{
+    position: relative;
+    top: 0;
+  }
+  .card .profile .name{
+    margin-top: 2rem;
+  }
+
+  .card .about{
+    padding: 2rem 1rem;
+  }
+}
+/* For screen size less than 430px */
+@media (max-width:430px) {
+  .card{
+    width: 34rem;
+    padding: 1.5rem;
+  }
+}
+
+/* Card CSS Ends */
