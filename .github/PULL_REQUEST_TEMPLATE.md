@@ -20,6 +20,7 @@
 - [ ] 🐛 Bug Fix
 - [ ] 👷 Optimization
 - [ ] 📝 Documentation Update
+- [ ] ✨ Added A Feature
 - [ ] 🚩 Other
 
 ## Description
