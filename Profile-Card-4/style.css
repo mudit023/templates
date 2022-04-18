@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Handlee&family=Lato:wght@300&family=Merriweather&family=Merriweather+Sans:wght@500&family=Montserrat&family=Open+Sans&family=Outfit:wght@300;400;600&family=Poppins:wght@200;300;400;500;600;700;800&family=Sacramento&display=swap');
+
+
+/*initial styling to remove the default padding and margin*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+:root{
+    --primary-color:#fff;
+    --secondary-color:#047aed;
+    --text-color:#333;
+}
+/*wrapper of the profile card*/
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+}
+/*profile-card*/
+.profile-card{
+    width: 35rem;
+    height: 50rem;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap:1.5rem;
+    position: relative;
+    z-index: 0;
+    border:0.2rem var(--primary-color) solid;
+    border-radius: 3px;
+    background-color: var(--primary-color);
+    box-shadow: 0.1rem 0.1rem 2rem 0.5rem;
+}
+/*image-container*/
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    padding-top: 2rem;
+}
+/*top blue strip properties*/
+.image-container::after{
+    content: " ";
+    position: absolute;
+    width:100%;
+    height:50%;
+    background-color:var(--primary-color);
+    z-index:1; 
+  
+  bottom:-7.5%;
+  transform: skewY(3deg);
+  left: 0;
+}
+/*image*/
+.image-container img{
+    height: 13rem;
+    width: 13rem;
+    border-radius:100% ;
+    position: relative;
+    z-index: 2;
+    border: 0.3rem var(--primary-color) solid;
+
+   
+}
+/*name*/
+h1{
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #333;
+}
+
+/*horizontal line*/
+hr{
+    
+    width: 20%;
+    border: 0.01rem var(--secondary-color) solid;
+    align-self: center;
+    background-color:var(--secondary-color);
+    
+}
+/*content*/
+p{
+    font-size: 2rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: var();
+}
+/*links container*/
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+    z-index: 1000;
+    
+    
+}
+/*links a styling*/
+.links a{
+    border:0.3rem var(--secondary-color) solid;
+    border-radius: 100%;
+    padding: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*links icons*/
+.links a svg{
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: var(--secondary-color);
+}
+/*links incons hover effect*/
+.links a:hover{
+    transition-property: transform;
+    transition-duration:1s;
+    transform: translateY(-0.5rem);
+}
+
+/*social container*/
+.social-links{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+}
+/*last blue strip*/
+.social-links::after{
+    content: " ";
+    width: 100%;
+    height: 98%;
+    bottom: -11%;
+    position: absolute;
+    background-color: var(--secondary-color);
+    z-index: -1;
+    
+    transform: skewY(3deg);
+}
+/*social icons*/
+.social-links a svg{
+    height: 3.5rem;
+    width: 3.5rem;
+    fill: var(--primary-color);
+}
+/*social icons hover effect*/
+.social-links a:hover {
+    transition: transform;
+    transition-duration: 0.5s;
+    transform: translateY(-0.5rem);
+}
