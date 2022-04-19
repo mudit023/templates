@@ -38,9 +38,10 @@
 
 - [ ] 📜 readme
 - [ ] 🙅 no documentation needed
+## The PR is following our:  
+- [ ] [Pull Request Guidelines](https://github.com/mudit023/templates/blob/main/CONTRIBUTING.md#things-to-keep-in-mind-before-making-a-pull-request)
+- [ ] [Template Guidelines](https://github.com/mudit023/templates/blob/main/TEMPLATE_GUIDELINES.md) (if you are contributiong a new template) 
 
 ## [optional] Are there any post-deployment tasks we need to perform?
 
 
-
-## [optional] What gif best describes this PR or how it makes you feel?
