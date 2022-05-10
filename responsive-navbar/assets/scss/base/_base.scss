@@ -1,0 +1,36 @@
+/*=============== BASE ===============*/
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all 0.5s;
+}
+
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+h1,h2,h3{
+    color: var(--title-color);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}

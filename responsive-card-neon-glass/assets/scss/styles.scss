@@ -1,0 +1,217 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+
+/*===== VARIABLES CSS =====*/
+:root{
+
+    /*========== Colors ==========*/
+    --body-color: #020318;
+    --text-color-light: #FFF;
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Poppins', sans-serif;
+
+    --biggest-font-size: 2rem;
+    --h1-font-size: 1.5rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .75rem;
+
+    @media screen and (min-width: 1024px){
+        --normal-font-size: 1rem;
+    }
+    
+    /*========== Box, Drop & Text Shadow ==========*/
+    --box-shadow-inset: inset 0 22px 56px -36px rgba(255, 255, 255, .5), 
+                        inset 0 4px 5px -4px rgba(255, 255, 255, 1), 
+                        inset 0 -31px 34px -32px rgba(96, 68, 144, .3), 
+                        inset 0 39px 50px -34px rgba(202, 172, 255, .3), 
+                        inset 0 2px 9px rgba(154, 146, 210, .3), 
+                        inset 0 1px 10px rgba(227, 222, 255, .2);;
+
+    --drop-shadow: 0 0 8px rgba(161, 165, 247, .8);
+
+    --text-shadow: 0 0 8px rgba(161, 165, 247, .8);
+
+    --box-shadow-inset-button: inset 0 2px 7px -9px rgba(255, 255, 255, .5), 
+                               inset 0 1px 2px -1px rgba(255, 255, 255, 1), 
+                               inset 0 -20px 16px -32px rgba(96, 68, 144, .3), 
+                               inset 0 28px 25px -24px rgba(202, 172, 255, .3), 
+                               inset 0 1px 4px rgba(154, 146, 210, .3), 
+                               inset 0 1px 10px rgba(227, 222, 255, .2);
+
+    /*========== Box, Drop & Text Shadow Hover ==========*/
+    --box-shadow-inset-hover: inset 0 19px 28px -18px rgba(255, 255, 255, .5), 
+                              inset 0 4px 6px -3px rgba(255, 255, 255, 1), 
+                              inset 0 -51px 44px -42px rgba(96, 68, 144, .3), 
+                              inset 0 59px 60px -32px rgba(202, 172, 255, .3), 
+                              inset 0 4px 16px rgba(154, 146, 210, .3), 
+                              inset 0 2px 25px rgba(227, 222, 255, .23);
+
+    --drop-shadow-hover:  0 0 14px rgba(161, 165, 247, .8);
+
+    --text-shadow-hover: 0 0 14px rgba(161, 165, 247, .8);
+
+    --box-shadow-inset-button-hover: inset 0 4px 7px -4px rgba(255, 255, 255, .5), 
+                                     inset 0 1px 2px -1px rgba(255, 255, 255, 1), 
+                                     inset 0 -20px 16px -32px rgba(96, 68, 144, .3), 
+                                     inset 0 28px 25px -20px rgba(202, 172, 255, .3), 
+                                     inset 0 1px 4px rgba(154, 146, 210, .3), 
+                                     inset 0 1px 16px rgba(227, 222, 255, .2); 
+
+    /*========== Filter Blur ==========*/
+    --filter-blur: blur(100px)
+}
+
+/*========== BASE ==========*/
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    background-color: var(--body-color);
+}
+h1,p{
+    margin: 0;  
+}
+
+a{
+    text-decoration: none;
+}
+
+/*========== LAYAOUT ==========*/
+.bd-container{
+    max-width: 1024px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+/*========== CARD NEON ==========*/
+.neon{
+    display: grid;
+    align-items: center;
+    padding: 2.5rem 0;
+    
+    &__container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(312px, 1fr));
+        align-items: center;
+        row-gap: 3.5rem;
+        column-gap: 2.5rem;
+    }
+    &__card{
+        background: rgba(255,255,255,.01);
+        color: var(--text-color-light);
+        box-shadow: var(--box-shadow-inset);
+        backdrop-filter: var(--filter-blur);
+        padding: 3.5rem 1.5rem 2rem;
+        border-radius: 3rem;
+        text-align: center;
+
+    }
+    &__icon{
+        width: 120px;
+        fill: var(--text-color-light);
+        filter: drop-shadow(var(--drop-shadow));
+        margin-bottom: .25rem;
+    }
+    &__title,
+    &__description{
+        text-shadow: var(--text-shadow);
+    }
+    
+    &__title{
+        font-size: var(--biggest-font-size);
+        margin-bottom: .25rem;
+    }
+    &__description{
+        text-align: initial;
+        margin-bottom: 1.5rem;
+    }
+    &__button{
+        &-icon{
+            width: 1.2rem;
+            margin-left: .5rem;
+            fill: var(--text-color-light);
+            filter: drop-shadow(var(--drop-shadow));
+        }
+
+        box-shadow: var(--box-shadow-inset-button);
+        color: var(--text-color-light);
+        text-shadow: var(--text-shadow);
+        display: flex;
+        justify-content: center;
+        padding: 1.25rem;
+        border-radius: 1rem;
+
+        &:hover{
+            box-shadow: var(--box-shadow-inset-button-hover);
+        }
+    }
+    /* Card neon hover */
+    &:hover{
+        box-shadow: var(--box-shadow-inset-hover);
+    }
+
+    &:hover .neon__icon{
+        filter: drop-shadow(var(--drop-shadow-hover));
+    }
+
+    &:hover .neon__title,
+    &:hover .neon__description{
+        text-shadow: var(--text-shadow-hover);
+    }
+    
+    &__card,
+    &__icon,
+    &__title,
+    &__description,
+    &__button{
+        transition: .3s;
+    }
+}
+
+/*========== MEDIA QUERIES ==========*/
+/* For small devices */
+@media screen and (max-width: 359px) {
+    .neon{
+        &__container{
+            grid-template-columns: 1fr;
+        }
+        &__card{
+            padding: 2rem 1rem 1.5rem;
+            border-radius: 2rem;
+        }
+        &__icon{
+            width: 80px;
+        }
+        &__title{
+            font-size: var(--h1-font-size);
+        }
+        &__description{
+            font-size: var(--smaller-font-size);
+        }
+        &__button{
+            padding: 1rem;
+            font-size: var(--smaller-font-size);
+            border-radius: .6rem;
+
+            &-icon{
+                width: 1rem;
+            }
+        }
+    }
+}
+
+/* For long screens */
+@media screen and (min-width: 1024px){
+    .bd-container{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .neon{
+        height: 100vh;
+    }
+}
