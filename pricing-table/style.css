@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body {
+  margin: 0;
+  background-color: #fffafa;
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: auto;
+  height: auto;
+  background-color: #fdfcfa;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+.dollar-sign {
+  margin-top: 10px;
+}
+.price {
+  font-size: 50px;
+  font-weight: bold;
+}
+.per-month {
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-bottom: 18px;
+  margin-left: 3px;
+}
+.border-line {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 10px;
+}
+.card:first-child {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.card:last-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+.premium {
+  height: auto;
+  z-index: 1;
+  background-color: #4b0082;
+  color: white;
+  padding-top: vh;
+}
+.premium .border-line {
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+.premium .popular {
+  display: flex;
+  justify-content: center;
+}
+.popular span {
+  background-color: #ffd300;
+  color: black;
+  padding: 3px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+}
+.card-features {
+  margin-left: -30px;
+  padding: 0;
+}
+.card-features li {
+  list-style-type: none;
+}
+.card-features .available::before {
+  content: '\f058';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: limegreen;
+  margin-right: 5px;
+}
+.disabled {
+  color: grey;
+  text-decoration: line-through;
+}
+.disabled::before {
+  content: '\f057';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: red;
+  margin-right: 5px;
+  display: inline-block;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+.button button {
+  padding: 5px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: #4b0082;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.premium button {
+  background-color: #fdfcfa;
+  color: #4b0082;
+}
+button:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (max-width: 720px) {
+  .card {
+    width: 250px;
+    height: auto;
+  }
+  .container {
+    margin: 20px;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .card:last-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
