@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./Overview.gif" />
+<img src="./Awesome-Social-Media-Icon.png" />
 
 ### How to use ?
 
