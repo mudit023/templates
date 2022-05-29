@@ -6,6 +6,7 @@ This file will guide you through all the requirements and necessities for creati
 
 -   **Properly Commented Code** : It will make users understand how your code works and thus they or you can change it according to the requirements. For more read [this](https://medium.com/swlh/10-reasons-why-you-should-place-comments-in-your-code-96783a69ceda)
 - **Creating Independent Components** : This project is solely made so that devs could reuse the individual components to create their projects. Hence, writing such code that does not affect the other parts of the project is necessary. Mainly, the styling should be done in such a way that it does not affect the styling of the whole project and if you suspect any collision please mention by adding proper comments. (Another reason to add comments to your code. )
+- **Proper Folder Structure:** Your template code and all the resources(images, gifs, etc) used in the component should be structuerd porperly in your parent template folder. 
 -   **Every template needs to have a README file.**
 
 ### Each Template README should have the following things in it :

@@ -1,12 +1,22 @@
+/* Import main font */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+/* Variables */
+:root {
+  --body-bg    : #2d3436;
+  --white-color: #fff;
+  --light-color: #eee;
+  --dark-color : #333;
+}
+
+/* visit, if not familiar with 'box-sizing': https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing */
 * {
   box-sizing: border-box;
 }
 
 body {
   font-family     : 'Roboto', sans-serif;
-  background-color: #2d3436;
+  background-color: var(--body-bg);
   display         : flex;
   padding-top     : 5rem;
   justify-content : center;
@@ -15,6 +25,7 @@ body {
   margin          : 0;
 }
 
+/* Both rows */
 .row {
   display        : flex;
   justify-content: space-between;
@@ -22,62 +33,69 @@ body {
   margin-bottom  : 1rem;
 }
 
+/* Each status column */
 .col-header {
-  width        : 150px;
+  width        : 160px;
   border-radius: 20px;
   padding      : 0.8rem 1rem;
-  color        : #fff;
+  color        : var(--white-color);
   text-align   : center;
   transition   : .15s;
 }
 
+/* Draggable item */
 .item {
-  width        : 150px;
+  width        : 160px;
   height       : 66px;
-  border       : 1px solid #eee;
+  border       : 1px solid var(--light-color);
   border-radius: 20px;
-  box-shadow   : 2px 2px 9px rgba(198, 198, 198, 0.36);
-  background   : #eee;
-  color        : #333;
+  background   : var(--light-color);
   padding      : 0.8rem 1rem;
   text-align   : center;
   cursor       : grab;
 }
 
+/* Change cursor when grabbing */
 .item:active {
   cursor: grabbing;
 }
 
+/* Each second row column */
 .placeholder {
-  width : 150px;
+  width : 160px;
   height: 66px;
 }
 
+/* Status column colors */
 .start {
   background: linear-gradient(90deg, #ff85e4 0%, #229efd 179.25%);
 }
-
 .progress {
   background: linear-gradient(90deg, #209cff 0%, #68e0cf 100%);
 }
-
 .done {
   background: linear-gradient(90deg, #84fab0 0%, #8fd3f4 100%);
 }
+/* Status column colors END */
 
+/* Bodred for item when dragging */
 .hold {
-  border: 5px solid rgba(0, 0, 0, 0.2);
+  border: 5px solid var(--dark-color);
 }
 
+/* Hide original item when dragging. See script.js - line:24
+*/
 .hide {
   display: none;
 }
 
+/* Dotted border for entered placeholder */
 .hovered {
   border: 3px dotted #37c3ee;
 }
 
+/* Shadow for status columns */
 .shadow {
   transition: .15s;
-  box-shadow: 0px 0px 9px #c6c6c68f;
+  box-shadow: 0px 0px 9px var(--light-color);
 }
