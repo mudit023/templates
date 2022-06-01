@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+:root {
+  --color-primary: #fdfcfa;
+  --color-premium: #4b0082;
+  --color-available: #32cd32;
+  --color-unavailable: #ff0000;
+  --color-disabled: #808080;
+  --color-popular: #ffd300;
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-primary);
+  font-family: 'Poppins', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD STYLE */
+.card {
+  width: auto;
+  height: auto;
+  background-color: var(--color-primary);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* CARD HEADER STYLE */
+.card-header {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+.dollar-sign {
+  margin-top: 10px;
+}
+
+.price {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.per-month {
+  text-transform: uppercase;
+  align-self: flex-end;
+  margin-bottom: 18px;
+  margin-left: 3px;
+}
+
+/* BORDER LINE STYLE */
+.border-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-disabled);
+  margin-top: 10px;
+}
+
+/* FIRST AND LAST CARD BORDERS */
+.card:first-child {
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.card:last-child {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+/* PREMIUM CARD STYLE */
+.premium {
+  height: auto;
+  z-index: 1;
+  background-color: var(--color-premium);
+  color: var(--color-primary);
+  padding-top: vh;
+}
+
+.premium .border-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-disabled);
+}
+
+.premium .popular {
+  display: flex;
+  justify-content: center;
+}
+
+.popular span {
+  background-color: var(--color-popular);
+  color: black;
+  padding: 3px 12px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.premium .btn {
+  background-color: var(--color-primary);
+  color: var(--color-premium);
+}
+
+/* CARD FEATURES STYLE */
+.card-features {
+  margin-left: -30px;
+  padding: 0;
+}
+
+.card-features li {
+  list-style-type: none;
+}
+
+.card-features .available::before {
+  content: '\f058';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: var(--color-available);
+  margin-right: 5px;
+}
+
+.disabled {
+  color: var(--color-disabled);
+  text-decoration: line-through;
+}
+
+.disabled::before {
+  content: '\f057';
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  color: var(--color-unavailable);
+  margin-right: 5px;
+  display: inline-block;
+}
+
+/* BUTTON STYLE */
+.button {
+  display: flex;
+  justify-content: center;
+}
+
+.button button {
+  padding: 5px 20px;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px;
+  background-color: var(--color-premium);
+  border: 0;
+  border-radius: 20px;
+  color: var(--color-primary);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 720px) {
+  .card {
+    width: 250px;
+    height: auto;
+  }
+  .container {
+    margin: 20px;
+    height: auto;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .card:first-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  .card:last-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+}
