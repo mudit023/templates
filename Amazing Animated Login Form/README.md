@@ -1,8 +1,10 @@
 <p align="center">
        <img src="./Logo.png" alt="Logo" />
+       
        # Amazing Animated Login Form
+       
 </p>
-This is a Animated Login Form That will be used in Websites As A Page.
+This is an Animated Login Form that will be used in websites as a page.
 
 ## Table of contents
 
@@ -38,7 +40,7 @@ If you have any problem tell us by creating an [issue](https://github.com/mudit0
 
 ### More Information
 
-This template is for A Animated Login Form
+This template is for an Animated Login Form
 
 ## My process
 
