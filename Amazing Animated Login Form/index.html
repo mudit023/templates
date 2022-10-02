@@ -3,79 +3,112 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
+    
+    <!--icons script link-->
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous"></script>
+    
+    <!--stylesheet link-->
     <link rel="stylesheet" href="./signup.css" />
+    
+    <!--title-->
     <title>Sign in & Sign up Form</title>
   </head>
+  
   <body>
+    <!--container start-->
     <div class="container">
+      <!--form container start-->
       <div class="forms-container">
         <div class="signin-signup">
+          
+          <!--sign in form start-->
           <form action="#" class="sign-in-form">
             <h2 class="title">Sign in</h2>
+            <!--input for username-->
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Username" />
             </div>
+            <!--input for password-->
             <div class="input-field">
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
             </div>
+            <!--log in button-->
             <input type="submit" value="Login" class="btn solid" />
             <p class="social-text">Or Sign in with social platforms</p>
+            <!--social media icons list start-->
             <div class="social-media">
+              <!--facebook link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
+              <!--twitter link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-twitter"></i>
               </a>
+              <!--google account link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
+              <!--linkedin link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
+            <!--social media icons list end-->
           </form>
+          <!--sign in form end-->
+          
+          <!--sign up form start-->
           <form action="#" class="sign-up-form">
             <h2 class="title">Sign up</h2>
+            <!--input for username-->
             <div class="input-field">
               <i class="fas fa-user"></i>
               <input type="text" placeholder="Username" />
             </div>
+            <!--input for email address-->
             <div class="input-field">
               <i class="fas fa-envelope"></i>
               <input type="email" placeholder="Email" />
             </div>
+            <!--input for password-->
             <div class="input-field">
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
             </div>
+            <!--sign up button-->
             <input type="submit" class="btn" value="Sign up" />
             <p class="social-text">Or Sign up with social platforms</p>
+            <!--social media icons list start-->
             <div class="social-media">
+              <!--facebook link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
+              <!--twitter link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-twitter"></i>
               </a>
+              <!--google account link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
+              <!--linkedin link-->
               <a href="#" class="social-icon">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </div>
           </form>
+          <!--sign up form end-->
         </div>
       </div>
+      <!--form container end-->
 
+      <!--panel container start-->
       <div class="panels-container">
+        <!--left panel for sign in form start-->
         <div class="panel left-panel">
           <div class="content">
             <h3>New here ?</h3>
@@ -83,12 +116,17 @@
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
               ex ratione. Aliquid!
             </p>
+            <!--sign up button-->
             <button class="btn transparent" id="sign-up-btn">
               Sign up
             </button>
           </div>
+          <!--image tag for svg file-->
           <img src="img/log.svg" class="image" alt="" />
         </div>
+        <!--left panel for sign in form start-->
+        
+        <!--right panel for sign up form start-->
         <div class="panel right-panel">
           <div class="content">
             <h3>One of us ?</h3>
@@ -96,15 +134,21 @@
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
               laboriosam ad deleniti.
             </p>
+            <!--sign in button-->
             <button class="btn transparent" id="sign-in-btn">
               Sign in
             </button>
           </div>
+          <!--image tag for svg file-->
           <img src="img/register.svg" class="image" alt="" />
         </div>
+         <!--right panel for sign up form end-->
       </div>
+     <!--panel container end-->
     </div>
+    <!--container end-->
 
+    <!--script file javascript-->
     <script src="app.js"></script>
   </body>
 </html>
