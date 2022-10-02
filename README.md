@@ -1,4 +1,7 @@
 # Templates
+
+#### Make your first [Hacktoberfest](https://hacktoberfest.com/) contribution. It's a well documented project, beginner friendly, and if you still face any problem the maintainers are here to help you. Join our [slack channel](https://join.slack.com/t/opensourceden/shared_invite/zt-1a8woq4f8-jKoPW28x2qMrgTqQfItlHw) for better assitance.
+
 ### Collection of variety of reusable components of HTML, CSS and JavaScript.
 
 ## What you can make:
