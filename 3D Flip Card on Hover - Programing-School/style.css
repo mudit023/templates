@@ -5,16 +5,24 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+:root {
+  --gradient-color-1: #1cc7d0;
+  --gradient-color-2: #2ede98;
+  --card-background-color: #fff;
+  --back-face-social-media-icon-color: #fff;
+  --card-border-color: #1cc7d0;
+  --gradient-angle-degree: 375deg;
+}
 html,body{
   display: grid;
   height: 100%;
   width: 100%;
   place-items: center;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: linear-gradient(var(--gradient-angle-degree), var(--gradient-color-1), var(--gradient-color-2));
 }
 ::selection{
-  color: #fff;
-  background: #1cc7d0;
+  color: var(--card-background-color);
+  background: var(--gradient-color-1);
 }
 .wrapper{
   height: 400px;
@@ -28,7 +36,7 @@ html,body{
   height: 100%;
   width: 100%;
   padding: 5px;
-  background: #fff;
+  background: var(--card-background-color);
   border-radius: 10px;
   transform: translateY(0deg);
   backface-visibility: hidden;
@@ -60,7 +68,7 @@ html,body{
   width: 150px;
   padding: 5px;
   border-radius: 50%;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: linear-gradient(var(--gradient-angle-degree), var(--gradient-color-1), var(--gradient-color-2));
 }
 .wrapper .back-face .info{
   text-align: center;
@@ -76,17 +84,17 @@ html,body{
   display: block;
   height: 40px;
   width: 40px;
-  color: #fff;
+  color: var(--back-face-social-media-icon-color);
   text-align: center;
   margin: 0 5px;
   line-height: 38px;
   border: 2px solid transparent;
   border-radius: 50%;
-  background: linear-gradient(375deg, #1cc7d0, #2ede98);
+  background: linear-gradient(var(--gradient-angle-degree), var(--gradient-color-1), var(--gradient-color-2));
   transition: all 0.5s ease;
 }
 .back-face ul a:hover{
-  color: #1cc7d0;
-  border-color: #1cc7d0;
-  background: linear-gradient(375deg, transparent, transparent);
+  color: var(--gradient-color-1);
+  border-color: var(--card-border-color);
+  background: linear-gradient(var(--gradient-angle-degree), transparent, transparent);
 }
