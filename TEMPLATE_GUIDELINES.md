@@ -9,12 +9,12 @@ This file will guide you through all the requirements and necessities for creati
 - **Proper Folder Structure:** Your template code and all the resources(images, gifs, etc) used in the component should be structuerd porperly in your parent template folder. 
 -   **Every template needs to have a README file like this [example](https://github.com/mudit023/templates/tree/main/animated-newsletter).**
 
-### Each Template README should have the following things in it :
+## Each Template README should have the following things in it :
 
 -   Screenshots of the component contributed.
 -   Proper instructions to use the template.
 -   Anything a user needs to know about the template that might affect the user's project.
 -   Contributor's name and social media link (GitHub, Twitter).
 
-**Note:**  Every contributor have to follow these guidelines and then only the PR will get merged.
+> ### Note: Every contributor have to follow these guidelines and then only the PR will get merged.
 
