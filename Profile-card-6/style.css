@@ -6,6 +6,11 @@
     box-sizing: border-box;
 }
 
+:root {
+    --green: #56b66c;
+    --yellow: #b1bc51;
+  }
+
 .center {
     display: flex;
     justify-content: center;
@@ -13,7 +18,7 @@
 }
 
 body {
-    background: linear-gradient(to left, #56b66c, #b1bc51);
+    background: linear-gradient(to left, var(--green), var(--yellow));
     height: 100vh;
     display: flex;
     justify-content: center;
