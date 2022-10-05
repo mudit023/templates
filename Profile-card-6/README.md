@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Screenshot
 
-<img src="./Schreenshot1.png" />
+<img src="https://github.com/mudit023/templates/blob/main/Profile-card-6/Screenshot1.png" />
 
 ## My process
 
