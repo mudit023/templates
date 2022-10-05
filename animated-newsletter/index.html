@@ -4,43 +4,59 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!--title-->
 		<title>Animated Newsletter Form</title>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-			integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
-			crossorigin="anonymous"
-			referrerpolicy="no-referrer"
-		/>
-		<script
-			src="https://code.jquery.com/jquery-3.6.0.js"
-			integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-			crossorigin="anonymous"
-		></script>
+		
+		<!--stylesheet for icons-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" 
+		      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous"
+		      referrerpolicy="no-referrer"/>
+		
+		!--script file for jquery code-->
+		<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+			crossorigin="anonymous"></script>
+		
+		<!--stylesheet-->
 		<link rel="stylesheet" href="style.css" />
+		
+		<!--script file for javascript-->
 		<script src="/script.js"></script>
 	</head>
 	<body>
+		<!--newsletter icon which open a prompt overlay start-->
 		<div class="envelope">
 			<i class="fa fa-envelope-o" aria-hidden="true"></i>
 		</div>
+		<!--newsletter icon which open a prompt overlay start-->
+		
+		<!--prompt overlay start-->
 		<div class="overlay">
 			<div class="newsletter">
+				<!--close icon for the prompt start-->
 				<div class="close">
 					<i class="fa fa-times" aria-hidden="true"></i>
 				</div>
+				<!--close icon for the prompt end-->
+				
+				<!--newsletter icon start-->
 				<div class="icon">
 					<i class="fa fa-envelope-o" aria-hidden="true"></i>
 				</div>
+				<!--newsletter icon end-->
+				
 				<h1>Newsletter</h1>
 				<p>Stay up to date with our latest news</p>
 				<div class="subscribe-form">
 					<form action="">
+						<!--form input for email-->
 						<input type="email" name="" placeholder="Enter Your Email" />
+						<!--submit button-->
 						<input type="submit" name="" value="Subscribe" />
 					</form>
 				</div>
 			</div>
 		</div>
+		<!--prompt overlay end-->
 	</body>
 </html>
