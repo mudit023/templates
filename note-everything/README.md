@@ -9,6 +9,8 @@ This is a open source code to the notes app which uses local storage of your bro
   - [Screenshot](#screenshot)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+  - [Author](#author)
+
  
 
 ## Overview
@@ -51,5 +53,12 @@ This is a open source code to the notes app which uses local storage of your bro
 I learned local storage,search functionality, how to make elements with DOM, bootstrap 5.
  </br>
  </br>
+
+
+### Author
+
+- Website - [Usama Bin Kashif](https://github.com/UsamaBinKashif)
+- Twitter - [@UsamaBinKashif](https://twitter.com/UsamaBinKashif)
+
 
 # Feel Free To Use It.
