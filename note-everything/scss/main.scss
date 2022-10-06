@@ -1,7 +1,9 @@
-$dark-teal: #019267;
-$light-teal: #00c897;
-$white: #ffffff;
-$black: #000000;
+:root {
+  --dark-teal: #019267;
+  --light-teal: #00c897;
+  --white: #ffffff;
+  --black: #000000;
+}
 
 *::after,
 ::before,
@@ -12,21 +14,21 @@ $black: #000000;
 }
 
 body {
-  background-color: $dark-teal;
+  background-color: var(--dark-teal);
 }
 .navbar {
- box-shadow: none;
-  background-color: $light-teal;
+  box-shadow: none;
+  background-color: var(--light-teal);
   color: $black;
 }
 
 .form-control:focus {
-    box-shadow: none;
-  border: 1px solid $dark-teal;
+  box-shadow: none;
+  border: 1px solid var(--dark-teal);
 }
 
 hr {
-  border: 1px solid $white;
+  border: 1px solid var(--white);
 }
 #alertTxt {
   display: none;
