@@ -29,6 +29,11 @@ This is a open source code to the notes app which uses local storage of your bro
  </br>
  </br>
 
+### GIF
+![Gif](images/video.gif)
+</br>
+ </br>
+
 ### Built with
 
 - HTML5
