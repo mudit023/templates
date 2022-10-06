@@ -1,0 +1,33 @@
+$dark-teal: #019267;
+$light-teal: #00c897;
+$white: #ffffff;
+$black: #000000;
+
+*::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark-teal;
+}
+.navbar {
+ box-shadow: none;
+  background-color: $light-teal;
+  color: $black;
+}
+
+.form-control:focus {
+    box-shadow: none;
+  border: 1px solid $dark-teal;
+}
+
+hr {
+  border: 1px solid $white;
+}
+#alertTxt {
+  display: none;
+}

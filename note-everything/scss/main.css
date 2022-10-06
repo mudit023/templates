@@ -1,0 +1,30 @@
+*::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #019267;
+}
+
+.navbar {
+  box-shadow: none;
+  background-color: #00c897;
+  color: #000000;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid #019267;
+}
+
+hr {
+  border: 1px solid #ffffff;
+}
+
+#alertTxt {
+  display: none;
+}/*# sourceMappingURL=main.css.map */
