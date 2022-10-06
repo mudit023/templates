@@ -1,4 +1,4 @@
-Animated Newsletter - A simple animated newsletter for your website
+MCQ-Auiz-App - A simple template for quiz website
 
 ## Table of contents
 
@@ -11,24 +11,19 @@ Animated Newsletter - A simple animated newsletter for your website
 
 ## Overview
 
-A simple newsletter button for your website with complete JS logic implemented
+A simple website made for quiz.
 
 ### Screenshot
+![Screenshot from 2022-10-06 06-29-52](https://user-images.githubusercontent.com/96253622/194190394-68cfb7d6-f0cf-44bb-80ec-baf2f08d5517.png)
 
-![](./Screenshot.png)
-![](./Screenshot-active.png)
 
-## My process
+### built-with
 
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- JQuery
-- Mobile-first workflow
+- HTML5
+- CSS 
+- JavaScript
 
 ## Author
 
-- Github - [@imRajAryan09](https://www.github.com/imRajAryan09)
-- Twitter - [@codeorfade](https://www.twitter.com/codeorfade)
+- Github - [@ashwin3005](https://github.com/ashwin3005)
+- Twitter - [@ashwin3005](https://twitter.com/ashwin3005)
