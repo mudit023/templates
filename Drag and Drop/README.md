@@ -13,9 +13,9 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
+### Demo!
+![Demo](./Demo.gif)
 
-![Screenshot](./Screenshot.png)
 
 ### Built with
 
