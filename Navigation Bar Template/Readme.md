@@ -19,9 +19,8 @@ Users should be able to:
 ### Screenshot
 
 ![](<./Images/Screenshot%20(9).png>)
+![Navbar](https://user-images.githubusercontent.com/90233808/194715775-1d676e2c-ce8c-44a7-b894-0cc91dbd4601.gif)
 
-
-https://user-images.githubusercontent.com/90233808/194708826-0936e575-f84f-4f72-9335-7b63018e0b10.mp4
 
 
 ### Built with
