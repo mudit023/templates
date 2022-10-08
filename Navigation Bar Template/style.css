@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:wght@500&family=Oswald:wght@500&family=Roboto:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+/*ul styling starts*/
+#Navbar > .container > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  margin-top: 10px;
+}
+/*ul styling ends*/
+
+.container {
+  height: 3rem;
+  padding: 10px;
+}
+
+/*Each list styling starts*/
+#Navbar > .container > ul > li {
+  margin-left: 3%;
+  padding: 3px;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+/*list styling ends*/
+
+#Navbar > .container > ul > li > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-link {
+  display: inline-block;
+  position: relative;
+}
+
+/*Animation starts*/
+.nav-link:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: #fd7014;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-in-out;
+}
+
+.nav-link:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+/*Animation ends*/
