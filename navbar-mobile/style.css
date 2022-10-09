@@ -7,12 +7,22 @@
 	font-family: "Poppins", sans-serif;
 }
 
+:root {
+	--primary-bgcolor: #6843d1;
+	--navbar-bgcolor: #fff;
+	--navitem-hover-color: #efefef;
+	--navlink-bgcolor: #6843cf;
+	--toggle-button-bgcolor: #f5f5f5;
+	--toggle-button-border-color: #6843d1;
+	--toggle-button-font-color: #6843d1;
+}
+
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-height: 100vh;
-	background: #6843d1;
+	background: var(--primary-bgcolor);
 }
 
 .container {
@@ -23,7 +33,7 @@ body {
 	position: relative;
 	width: 80px;
 	height: 420px;
-	background: #fff;
+	background: var(--navbar-bgcolor);
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
@@ -48,7 +58,7 @@ body {
 }
 
 .container .navigation ul li:hover {
-	background: #efefef;
+	background: var(--navitem-hover-color);
 }
 
 .container .navigation ul li a {
@@ -57,7 +67,7 @@ body {
 	width: 100%;
 	display: flex;
 	text-decoration: none;
-	color: #6843cf;
+	color: var(--navlink-bgcolor);
 	font-weight: 500;
 }
 
@@ -88,9 +98,9 @@ body {
 	right: -20px;
 	width: 40px;
 	height: 40px;
-	background: #f5f5f5;
+	background: var(--toggle-button-bgcolor);
 	cursor: pointer;
-	border: 5px solid #6843d1;
+	border: 5px solid var(--toggle-button-border-color);
 	border-radius: 50%;
 }
 
@@ -103,7 +113,7 @@ body {
 	line-height: 30px;
 	text-align: center;
 	font-size: 16px;
-	color: #6843d1;
+	color: var(--toggle-button-font-color);
 }
 
 .toggle.active::before {
