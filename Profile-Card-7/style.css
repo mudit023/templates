@@ -1,0 +1,189 @@
+/* For all the property of the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  font-size: 62.5%;
+}
+/* CSS Variables (Only the colors that are used multiple time in this card)*/
+:root {
+  --color1: #ececec;
+  --color2: #352f44;
+}
+/* Out portion of the card and also the base element */
+.container {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Parent element of the card */
+.profile-box {
+  height: 48rem;
+  background: url(images/pk.jpg);
+  background-position: center;
+  text-align: center;
+  padding: 4rem 9rem;
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0.5rem 1rem rgba(135, 136, 146, 0.8);
+  overflow: hidden;
+}
+/* Profile pic of the card */
+.profile-pic {
+  position: relative;
+  width: 15rem;
+  border-radius: 50%;
+  background: var(--color1);
+  padding: 0.6rem;
+  margin-top: 4rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(40, 48, 71, 0.8);
+  z-index: 1000;
+  transition-property: transform, opacity;
+  transition-duration: 2.5s;
+}
+
+/* Transition of profile pic */
+.profile-pic.onClick {
+  opacity: 0;
+  transform: translate(0px, -200%) scale(0.5);
+}
+
+/* The bottom section of the card */
+.profile-bottom {
+  width: 100%;
+  height: 165%;
+  background: #eaeaeaf8;
+  color: var(--color2);
+  padding: 6rem 0;
+  top: 16rem;
+  bottom: -7rem;
+  left: 0;
+  border-radius: 2rem;
+  font-size: 2rem;
+  position: absolute;
+  overflow: hidden;
+  transition-property: transform;
+  transition-duration: 2.5s;
+}
+
+/* Transtion of the bottom section */
+.profile-bottom.onClick {
+  transform: translate(0px, -50%);
+}
+
+/* The name on the profile card */
+.profile-box h3 {
+  font-size: 2.2rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-family: cursive;
+}
+.social-media {
+  transition-property: transform, opacity;
+  transition-duration: 2.5s;
+}
+
+/* icons properties */
+.social-media img {
+  width: 4rem;
+  margin: 2rem 0.5rem;
+  border-radius: 50%;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+  transition: ease-in-out 0.25s;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.8);
+}
+
+.social-media.onClick {
+  opacity: 0;
+  transform: translate(0px, -10%) scale(0.5);
+}
+
+.txt1 {
+  transition-property: transform, opacity;
+  transition-duration: 2.5s;
+}
+.txt1.onClick {
+  opacity: 0;
+  transform: translate(0px, -10%) scale(0.5);
+}
+
+.txt2 {
+  transition-property: transform, opacity;
+  transition-duration: 2.5s;
+}
+.txt2.onClick {
+  opacity: 0;
+  transform: translate(0px, -20%) scale(0.5);
+}
+/* The arrow icon */
+.darrow {
+  width: 3rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+.darrow:active {
+  transform: translateY(1rem);
+}
+.darrow.onClick {
+  transform: rotateX(-180deg) !important;
+}
+
+.txt3 {
+  transition-property: transform, opacity;
+  transition-duration: 2.5s;
+}
+.txt3.onClick {
+  opacity: 0;
+  transform: translate(0px, -10%) scale(0.5);
+}
+.about h3 {
+  text-align: center;
+}
+/* About section */
+.about p {
+  text-align: justify;
+  padding: 2rem;
+  margin: 2rem;
+  background-color: var(--color2);
+  color: var(--color1);
+  border: solid var(--color2);
+  border-radius: 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(47, 51, 64, 0.8);
+}
+/* Skill section */
+.skills div {
+  display: inline-block;
+  background-color: var(--color2);
+  color: var(--color1);
+  border: 1px solid var(--color2);
+  border-radius: 2rem;
+  padding: 1rem 1.3rem;
+  font-size: 1.5rem;
+  box-shadow: 0 0.2rem 0.8rem rgba(59, 71, 107, 0.8);
+}
+
+/* Mobile view under 400px and 330px */
+
+@media (max-width: 400px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 330px) {
+  html {
+    font-size: 40%;
+  }
+}
