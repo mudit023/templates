@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Musify.in</title>
+    <!--External CSS-->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <!--main area starts-->
+      <div class="main_area">
+        <header class="header">Musify.in</header>
+        <!--Songs card starts-->
+        <div class="song_list">
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Bella ciao thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Bella Ciao-Money Heist</h1>
+              <button class="play" onclick="playaudio(1)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Despacito thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Despacito- Daady Yankee</h1>
+              <button class="play" onclick="playaudio(2)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Excuses thumbnail.jpg" />
+            </div>
+            <div class="Excuses-A.P. Dhillon">
+              <h1>Excuses song- A.P. Dhillon</h1>
+              <button class="play" onclick="playaudio(3)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Intentions.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Intentions- Justin Bieber</h1>
+              <button class="play" onclick="playaudio(4)">Play</button>
+            </div>
+          </div>
+          <br />
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/on my way thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>On my way-Alan Walker</h1>
+              <button class="play" onclick="playaudio(5)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Prada thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Prada-Jass Manak</h1>
+              <button class="play" onclick="playaudio(6)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/Rhim jhim song thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Rhim Jhim-Jubin Nautiyal</h1>
+              <button class="play" onclick="playaudio(7)">Play</button>
+            </div>
+          </div>
+
+          <div class="audio">
+            <div class="thumbnail">
+              <img src="./thumbnails/yarri thumbnail.jpg" />
+            </div>
+            <div class="audio_details">
+              <h1>Yaari-Nikk</h1>
+              <button class="play" onclick="playaudio(8)">Play</button>
+            </div>
+          </div>
+        </div>
+        <!--Songs cards ends-->
+      </div>
+      <!--Main cards ends-->
+
+      <!--Live song side content starts-->
+      <div class="side_content">
+        <div class="playing">Playing Now</div>
+        <div class="side_thumbnail">
+          <img
+            id="image_thumbnail"
+            src="./thumbnails/Despacito thumbnail.jpg"
+          />
+        </div>
+        <audio
+          id="audio_play"
+          class="audio_play"
+          src="./Audio/Despacito.mp3"
+          controls
+        ></audio>
+        <h1 id="audio_player_title">Despacito- Daady Yankee</h1>
+      </div>
+      <!--Livfe song side content ends-->
+    </section>
+
+    <!--External javascript file-->
+    <script src="./index.js"></script>
+  </body>
+</html>
