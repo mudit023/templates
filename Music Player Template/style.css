@@ -1,0 +1,129 @@
+* {
+  margin: 0%;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(19, 19, 20);
+  display: flex;
+}
+
+/*main area styling starts*/
+.main_area {
+  height: 90vh;
+  width: 70%;
+}
+
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 20px;
+  font-size: 60px;
+  color: aqua;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+/*Songs card styling starts*/
+.song_list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 50px;
+  background-color: rgb(19, 19, 20);
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.audio {
+  width: 220px;
+  margin: 20px;
+  height: 350px;
+  overflow: hidden;
+  color: white;
+  background-color: rgb(19, 19, 1);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 250px;
+}
+
+.thumbnail > img {
+  width: 100%;
+}
+
+.play {
+  padding: 10px 40px;
+  margin-top: 5px;
+  border: 2px solid;
+  margin-left: 40px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.audio_details > h1 {
+  margin-left: 5px;
+}
+/*songs card styling ends*/
+.play:hover {
+  background-color: rgb(102, 248, 17);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white;
+  border-radius: 20%;
+}
+
+/*main area styling ends*/
+
+/*side content styling starts*/
+.side_content {
+  width: 30%;
+  background-color: black;
+  height: 1010px;
+  color: white;
+}
+
+.side_content > img {
+  width: 100%;
+}
+.side_thumbnail {
+  margin: 40px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  height: 300px;
+  background-color: aqua;
+}
+
+.side_thumbnail > img {
+  width: 100%;
+}
+
+.playing {
+  font-size: xx-large;
+  color: chartreuse;
+  text-align: center;
+  font-weight: bolder;
+  padding: 30px;
+}
+.audio_play {
+  width: 100%;
+}
+
+.side_content > h1 {
+  margin: 10px;
+}
+/*Side content styling ends*/
