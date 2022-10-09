@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <!-- Linking CSS to the Html element -->
+    <link rel="stylesheet" href="style.css" />
+  <body>
+    <!-- Outside container of the profile card -->
+    <div class="container">
+      <!-- Base element of profile card -->
+      <div class="profile-box">
+        <!-- Profile pic -->
+        <img src="images/profile-pic.jpg" class="profile-pic" />
+        <div class="profile-bottom">
+          <!-- Personal Information -->
+          <h3 class="txt1">Param Paragyan</h3>
+          <p class="txt2">Full-stack Web Developer</p>
+          <!-- Navigation icons -->
+          <div class="social-media">
+            <a
+              href="https://www.instagram.com/the_pcube/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/instagram.png"
+            /></a>
+            <a
+              href="https://www.linkedin.com/in/parampragyan/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/linkedin.png"
+            /></a>
+            <a
+              href="https://twitter.com/parampragyan"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/twitter.png"
+            /></a>
+            <a
+              href="https://github.com/ParamPragyan"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="images/github.png"
+            /></a>
+          </div>
+         
+
+          <p class="txt3">Learn More About This Profile</p>
+          <!-- Arrow icon -->
+          <img src="images/arrow.png" class="darrow" id="da" />
+          <br><br>
+          <!-- About Section -->
+          <div class="about">
+          <h3>About</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, placeat magni ut soluta itaque ab delectus beatae quia aut numquam voluptatem consequatur deserunt totam sapiente ullam? Quae distinctio est nisi?</p>
+          </div>
+          <!-- Skills section -->
+          <p><h3>Skills</h3></p><br>
+          <div class="skills">
+              <div>Html</div>&nbsp;
+              <div>Css</div>&nbsp;
+              <div>React</div>&nbsp;
+              <div>Node Js</div>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- JavaScript for the profile card -->
+  <script>
+    document
+      .getElementsByClassName("darrow")[0]
+      .addEventListener("click", function (e) {
+        document
+          .getElementsByClassName("profile-pic")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("profile-bottom")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("darrow")[0]
+          .classList.toggle("onClick");
+        document
+          .getElementsByClassName("social-media")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt1")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt2")[0]
+          .classList.toggle("onClick");
+          document
+          .getElementsByClassName("txt3")[0]
+          .classList.toggle("onClick");
+
+      });
+  </script>
+</html>
