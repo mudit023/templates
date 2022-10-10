@@ -1,5 +1,5 @@
 
-## This is a Profile Card with complete responsiveness and cross-platform acess.
+## This is a Profile Card with complete responsiveness and cross-platform access.
 
 **Note: For better comprehension of the code, read the internal comments.**
 
