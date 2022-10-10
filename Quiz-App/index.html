@@ -3,37 +3,60 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!--stylesheet link-->
     <link rel="stylesheet" href="style.css" />
+    
+    <!--title-->
     <title>Quiz App</title>
   </head>
   <body>
+    <!--quiz container start-->
     <div class="quiz-container" id="quiz">
+      <!--quiz question header start-->
       <div class="quiz-header">
+        <!--question text tag-->
         <h2 id="question">Question text</h2>
+        <!--options list start-->
         <ul>
+          <!--option 1 start-->
           <li>
             <input type="radio" name="answer" id="a" class="answer">
             <label for="a" id="a_text">Question</label>
           </li>
+          <!--option 1 end-->
 
+          <!--option 2 start-->
           <li>
             <input type="radio" name="answer" id="b" class="answer">
             <label for="b" id="b_text">Question</label>
           </li>
+          <!--option 2 end-->
 
+          <!--option 3 start-->
           <li>
             <input type="radio" name="answer" id="c" class="answer">
             <label for="c" id="c_text">Question</label>
           </li>
+          <!--option 3 end-->
 
+          <!--option 4 start-->
           <li>
             <input type="radio" name="answer" id="d" class="answer">
             <label for="d" id="d_text">Question</label>
           </li>
+          <!--option 4 end-->
         </ul>
+        <!--options list end-->
       </div>
+      <!--quiz question header end-->
+      
+      <!--submit button-->
       <button id="submit">Submit</button>
     </div>
+    <!--quiz container start-->
+    
+    <!--script tag javascript file-->
     <script src="script.js"></script>
   </body>
 </html>
