@@ -1,5 +1,6 @@
 <p align="center">
        <img src="./Logo.png" alt="Logo" />
+       
        # Quiz App
 </p>
 This is a Quiz App That will be used in Making Quizs.
@@ -23,6 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
+![Question Interface Card](./question-interface.png)
+![Results Card](./result.png)
 ![](./Screenshot-Web.jpg)
 ![](./Screenshot-Mobile.jpg)
 

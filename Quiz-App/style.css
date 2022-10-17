@@ -4,9 +4,20 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary-bgcolor: #b8c6db;
+  --gradient-color1: #b8c6db;
+  --gradient-color2: #f5f7fa;
+  --quiz-container-bgcolor: #fff;
+  --button-bgcolor: #8e44ad;
+  --button-font-color: #fff;
+  --button-hover-bgcolor: #732d91;
+  --button-focus-bgcolor: #5e3370;
+}
+
 body {
-  background-color: #b8c6db;
-  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 100%);
+  background-color: var(--primary-bgcolor);
+  background-image: linear-gradient(315deg, var(--gradient-color1) 0%, var(--gradient-color2) 100%);
   font-family: 'Poppins', sans-serif;
   display: flex;
   align-items: center;
@@ -17,7 +28,7 @@ body {
 }
 
 .quiz-container {
-  background-color: #fff;
+  background-color: var(--quiz-container-bgcolor);
   border-radius: 10px;
   box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
   width: 600px;
@@ -49,8 +60,8 @@ ul li label {
 }
 
 button {
-  background-color: #8e44ad;
-  color: #fff;
+  background-color: var(--button-bgcolor);
+  color: var(--button-font-color);
   border: none;
   display: block;
   width: 100%;
@@ -61,10 +72,10 @@ button {
 }
 
 button:hover {
-  background-color: #732d91;
+  background-color: var(--button-hover-bgcolor);
 }
 
 button:focus {
   outline: none;
-  background-color: #5e3370;
+  background-color: var(--button-focus-bgcolor);
 }
