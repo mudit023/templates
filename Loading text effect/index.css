@@ -1,0 +1,75 @@
+/* Set colors */
+:root{
+    --bg-color: #020c1b;
+    --text-color: #64ffda;
+    --animation-start-color: #64ffda;
+    --animation-end-color: rgb(255, 255, 255, .1);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+}
+
+/* Styling text */
+.loader{
+  text-align: center;
+  height: 40px;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+.loader span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    transform: translateZ(-100%);
+    display: inline-block;
+    color: var(--text-color);
+    animation: animate 2s infinite;
+    transition: all 0.5s;
+}
+
+/* Set animation speed*/
+.loader span:nth-child(1) {
+    animation-delay: 0.1s;
+}
+.loader span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+.loader span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+.loader span:nth-child(4) {
+    animation-delay: 0.4s;
+}
+.loader span:nth-child(5) {
+    animation-delay: 0.5s;
+}
+.loader span:nth-child(6) {
+    animation-delay: 0.6s;
+}
+.loader span:nth-child(7) {
+    animation-delay: 0.7s;
+}
+
+/* Animation for loading effect */
+@keyframes animate{
+    0% {
+        color: var(--animation-start-color);
+        transform: translateY(0);
+        margin-left:0 ;
+    }
+    25%{
+        transform: translateY(-15%);
+        margin-left: 10px;
+        text-shadow: 0 15px 5px rgba(0, 0, 0, 1);
+    }
+    100%{
+        color: var(--animation-end-color);
+        transform: translateY(0);
+        margin-left: 0;
+    }
+}
