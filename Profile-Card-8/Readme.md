@@ -1,24 +1,25 @@
-</p>
-This is a Profile Card which is distinctively crafted and agile.
+
+## This is a Profile Card that has been distinctively crafted and agile.
 
 **Note: For better comprehension of the code, read the internal comments.**
 
-### Screenshots
+### Screenshots :-
 
 <p align="center">
-       <img src="./images/Screenshot.jpg"/><br />
+       <img src="./images/Screenshot.jpg"  width="600"/><br />
 </p>
 
-### Captures
-
+### Captures :-
+<p align= "center">
 <img src="./images/Profile-Card.gif" />
-
-### Technology Used
+</P>
+### Technology Used :-
 
 - HTML5
 - CSS
 - JS
 
-## Made by
+## Made by :-
 
 - Github - [Param Pragyan](https://github.com/ParamPragyan)
+- Link - [Profile-Card](https://preeminent-taffy-0c2aa8.netlify.app/)
