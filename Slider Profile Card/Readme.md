@@ -12,6 +12,7 @@
 A Responsive Slider for Profile Cards which you can use to create the list of Guest Speakers, Blogs, Team Members etc. in your website.
 
 ### Screenshot
+![Preview](https://user-images.githubusercontent.com/88129955/197330469-0a2bc5c9-255d-4805-83ad-2f8ab9e067a4.png)
 
 
 ### Built with
