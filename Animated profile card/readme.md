@@ -1,6 +1,6 @@
 Animated profile card - A simple and attractive profile card for your website
 
-#Table of contents
+# Table of contents
 
 - [Overview](#overview)
   - [Screenshot](#screenshot)
