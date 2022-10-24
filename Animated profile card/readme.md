@@ -13,8 +13,7 @@ Simple and responsive profile card for your website based on CSS only
 
 ### Captures
 
-![](./img/screenshot.png)
-![](./img/screenshot-active.png)
+<img src="./img/screenshot.gif" />
 
 ## My process
 
