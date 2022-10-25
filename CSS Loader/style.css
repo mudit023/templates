@@ -4,8 +4,14 @@
     box-sizing: border-box;
 }
 
+:root {
+    --blue: #12c2e9;
+    --red: #f64f59;
+    --purple: #c471ed;
+}
+
 body {
-    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+    background: linear-gradient(to right, var(--red), var(--purple), var(--blue));
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,20 +25,6 @@ body {
     align-items: center;
 }
 
-/* .loader::before {
-    content: '';
-    background: rgba(255, 255, 255, 0);
-    backdrop-filter: blur(8px);
-    position: absolute;
-    width: 140px;
-    height: 55px;
-    z-index: 20;
-    border-radius: 0 0 10px 10px;
-    border: 1px solid rgba(255, 255, 255, 0.274);
-    border-top: none;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.082);
-    animation: anim2 2s infinite;
-} */
 
 .loader div {
     background: rgb(228, 228, 228);
