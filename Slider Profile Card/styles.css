@@ -1,0 +1,80 @@
+// slider container
+.slider {
+    margin-top: 5%;
+}
+
+// css for card at center
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+// individual card
+.slider-card {
+    background: linear-gradient(#FFC0CB, #FFB6C1, #FF69B4, #FF1493, #C71585);
+    border-radius: 20px;
+    color: #fff;
+    padding: 50px 20px;
+    line-height: 1.3em;
+    text-align: justify;
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+// image container
+.slider-card .slider-img{
+    border-radius: 50%;
+    border: 5px solid #ffff00;
+    height: 160px;
+    width: 160px;
+}
+
+// image 
+.slider-img img {
+    border-radius: 50%;
+    height: 100%;
+    width: 100%;
+}
+
+// title
+.slider-title {
+    font-size: 23px;
+    font-weight: 700;
+    font-family: 'Segoe UI', sans-serif;
+    color: #ffff00;
+    margin: 17px auto 3px;
+}
+
+// main text
+.slider-text {
+    margin: 10px auto 15px;
+    font-weight: 500;
+}
+
+// read more link
+.slider-card a {
+    color: #000;
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bolder;
+    width: 30%;
+    text-decoration: none;
+    border-radius: 40px 0 40px 0;
+    padding: 6px 10px;
+    background-color: #ffff00;
+    transition: linear 0.4s ease-in;
+}
+
+// hover on read more link
+.slider-text a:hover {
+    font-weight: bolder;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid rgba(160, 49, 252, 1);
+    color: rgba(160, 49, 252, 1);
+} 
